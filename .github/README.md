@@ -63,7 +63,7 @@ docker run -p 3000:3000 notaflightrisk/hearsay
 
 ### Option 3: From a release
 
-Grab `site.zip` from the [latest release](https://github.com/NotAFlightRisk/hearsay/releases/latest), unzip it and run `node build`, and open port 3000 (or set `PORT` to something else)
+Grab `site.zip` from the [latest release](https://github.com/NotAFlightRisk/hearsay/releases/latest), unzip it and run `node build`, and pop open localhost:3000
 
 ### Option 4: Build from source
 
