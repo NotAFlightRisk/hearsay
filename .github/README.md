@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-<img src="screenshot.png" width="800" alt="A dark globe with routes inked across it in blue and violet, the RIS collectors marked as small circles, and a strip of live readouts in the corner" />
+<img src="screenshot.gif" width="800" alt="A dark globe with routes inked across it in blue and violet, the RIS collectors marked as small circles, and a strip of live readouts in the corner" />
 </p>
 
 <details>
@@ -25,7 +25,7 @@
 
 The internet is about 80,000 separate networks (autonomous systems), each telling its neighbours which addresses it can reach. That's BGP, and since nobody checks most of what gets passed along, it pretty much runs on hearsay.
 
-This draws it as it happens. Your browser listens to a handful of big routers through RIPE's [RIS Live](https://ris-live.ripe.net/), and every update gets inked across the globe hop by hop, from the network that owns the route to the one that told us about it. Announcements are blue, path changes violet, withdrawals amber.
+This app draws each event it as it happens, plotting it on a 3d globe. Your browser listens to a handful of big routers through RIPE's [RIS Live](https://ris-live.ripe.net/), and every update gets linked across the globe hop by hop, from the network that owns the route to the one that told us about it. Announcements are blue, path changes violet, withdrawals amber.
 
 While it listens, it watches for anything odd: possible route leaks (a small network sat between two giants), prefixes changing hands, networks pulling lots of routes at once, bursts of withdrawals, flapping, bogons and silly amounts of prepending. Confirmed outages, leaks and hijacks from [Cloudflare Radar](https://radar.cloudflare.com/) and [IODA](https://ioda.inetintel.cc.gatech.edu/) sit alongside them, and there's a routing forecast per region, in the style of the shipping forecast.
 
@@ -45,7 +45,7 @@ It's light on data by default: about 10 KB a second on a phone, more on a big sc
 
 ### Option 1: Cloudflare Workers
 
-This is how the live site runs. Fork it, change the `routes` in `wrangler.jsonc` to your own domain (or delete them to just get a `workers.dev` address), then:
+Fork the repo, change  (or delete) `routes` in `wrangler.jsonc`, then either trigger the deploy workflow, or run:
 
 ```bash
 npm install
@@ -55,7 +55,7 @@ npx wrangler deploy
 
 ### Option 2: Docker
 
-There's a multi-arch image on DockerHub ([`notaflightrisk/hearsay`](https://hub.docker.com/r/notaflightrisk/hearsay)) and GHCR ([`ghcr.io/notaflightrisk/hearsay`](https://github.com/NotAFlightRisk/hearsay/pkgs/container/hearsay)). With Docker installed, just run:
+There's a multi-arch image on DockerHub ([`notaflightrisk/hearsay`](https://hub.docker.com/r/notaflightrisk/hearsay)) and GHCR ([`ghcr.io/notaflightrisk/hearsay`](https://github.com/NotAFlightRisk/hearsay/pkgs/container/hearsay))
 
 ```shell
 docker run -p 3000:3000 notaflightrisk/hearsay
@@ -63,7 +63,7 @@ docker run -p 3000:3000 notaflightrisk/hearsay
 
 ### Option 3: From a release
 
-Grab `site.zip` from the [latest release](https://github.com/NotAFlightRisk/hearsay/releases/latest), unzip it and run `node build`. It listens on port 3000, or whatever you set `PORT` to.
+Grab `site.zip` from the [latest release](https://github.com/NotAFlightRisk/hearsay/releases/latest), unzip it and run `node build`, and open port 3000 (or set `PORT` to something else)
 
 ### Option 4: Build from source
 
@@ -73,13 +73,7 @@ Follow the [Development](#development) steps, then `npm run build` and `node bui
 
 ## Configuration
 
-There's only one setting, and it's optional. `RADAR_TOKEN` is a Cloudflare API token with Radar read access, which adds Radar's confirmed outages, leaks and hijacks to the bulletins. Without it you still get IODA's outages and everything spotted live.
-
-```shell
-docker run -p 3000:3000 -e RADAR_TOKEN=your-token notaflightrisk/hearsay
-```
-
-On Workers it's a secret instead: `npx wrangler secret put RADAR_TOKEN`.
+There's only one setting, and it's optional. `RADAR_TOKEN` is a Cloudflare API token with Radar read access, which adds Radar's confirmed outages, leaks and hijacks to the bulletins. Without it you still get IODA's outages and everything spotted live. Like with Docker, set with `-e RADAR_TOKEN=your-token notaflightrisk/hearsay`, or for Workers use `npx wrangler secret put RADAR_TOKEN`.
 
 ---
 
