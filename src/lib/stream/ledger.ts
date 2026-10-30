@@ -11,6 +11,7 @@ interface Entry {
 
 // enough prefixes to say "lots", without keeping a big network's whole table
 const MOST_PREFIXES = 500;
+const MOST_UPSTREAMS = 16;
 
 /** What we've heard about each network since the page opened, for its data block */
 export class Ledger {
@@ -40,8 +41,12 @@ export class Ledger {
       if (entry.prefixes.size < MOST_PREFIXES) entry.prefixes.add(prefix);
     }
     const upstream = path.at(-2);
-    if (upstream !== undefined)
-      entry.upstreams.set(upstream, (entry.upstreams.get(upstream) ?? 0) + 1);
+    if (upstream === undefined) return;
+    entry.upstreams.set(upstream, (entry.upstreams.get(upstream) ?? 0) + 1);
+    if (entry.upstreams.size > MOST_UPSTREAMS) {
+      const [quietest] = [...entry.upstreams].sort((a, b) => a[1] - b[1])[0];
+      entry.upstreams.delete(quietest);
+    }
   }
 
   withdraw(origin: number, count: number, time: number) {

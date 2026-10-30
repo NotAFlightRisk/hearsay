@@ -1,4 +1,6 @@
 import { Detector } from '#lib/bgp/detect.ts';
+import { Lru } from '#lib/bgp/memory.ts';
+import { parsePrefix, within } from '#lib/bgp/networks.ts';
 import { parseRis } from '#lib/bgp/parse.ts';
 import type { Anomaly, Update } from '#lib/bgp/types.ts';
 import vantagePeers from '#lib/data/vantage.json';
@@ -25,9 +27,13 @@ const FRAME_MS = 100;
 const MAX_RETRY_MS = 30_000;
 // a watched network can light up a thousand peers at once, so even those get a ceiling
 const MOST_WATCHED_ROUTES = 12;
+// after this long without a word, the detector's sense of normal is out of date
+const STALE_MS = 60_000;
 
 const post = (message: FromWorker) => postMessage(message);
-let detector = new Detector();
+// ten-hop prepends turn up every few seconds, so only the truly silly ones make a bulletin
+const freshDetector = () => new Detector({ prependTimes: 25 });
+let detector = freshDetector();
 const vantage = new Vantage(vantagePeers as Peer[]);
 const ledger = new Ledger();
 
@@ -41,6 +47,10 @@ let watch: Watch | null = null;
 let paused = false;
 let retries = 0;
 let retryTimer: ReturnType<typeof setTimeout> | undefined;
+let lastHeard = 0;
+let loaded: () => void;
+// lookups wait for the ASN table, or a deep link asks before there's anything to answer with
+const ready = new Promise<void>((resolve) => (loaded = resolve));
 
 const fresh = (): Tally => ({ messages: 0, bytes: 0, announced: 0, withdrawn: 0, changed: 0 });
 let tally = fresh();
@@ -51,7 +61,8 @@ let anomalies = new Map<string, Anomaly>();
 let places = new Map<number, Place>();
 let budget = 0;
 let watchedBudget = 0;
-const enriched = new Set<string>();
+const blamed = new Lru<string, number[]>(50);
+const surges = new Lru<string, Anomaly>(50);
 
 const locate = (asn: number) => place(asn, table?.country(asn));
 
@@ -73,6 +84,7 @@ function connect() {
   socket = ws;
   ws.onopen = () => {
     retries = 0;
+    if (Date.now() - lastHeard > STALE_MS) detector = freshDetector();
     for (const peer of vantage.reset(levels[level].peers, Date.now()))
       send('ris_subscribe', peerFilter(peer));
     if (watch) send('ris_subscribe', watchFilter(watch));
@@ -99,8 +111,11 @@ function disconnect() {
 function watching(update: Update) {
   if (!watch) return false;
   if ('asn' in watch) return update.origin === watch.asn;
-  const prefix = watch.prefix;
-  return [...update.announced, ...update.withdrawn].some((each) => each === prefix);
+  const range = parsePrefix(watch.prefix);
+  return [...update.announced, ...update.withdrawn].some((each) => {
+    const prefix = parsePrefix(each);
+    return Boolean(range && prefix && within(prefix, range));
+  });
 }
 
 function count(asn: number | undefined, announced: number, withdrawn: number) {
@@ -126,20 +141,25 @@ function trace(path: number[]) {
 }
 
 function queue(found: Anomaly[]) {
-  for (const anomaly of found) {
+  for (const raw of found) {
+    const owners = blamed.get(raw.id);
+    const anomaly = owners ? { ...raw, others: owners } : raw;
     anomalies.set(anomaly.id, anomaly);
     for (const asn of [anomaly.asn, ...anomaly.others, ...(anomaly.path ?? [])]) {
       const at = asn ? locate(asn) : undefined;
       if (at) places.set(asn, at);
     }
-    if (anomaly.kind === 'surge') void blame(anomaly);
+    if (anomaly.kind === 'surge') {
+      surges.set(anomaly.id, anomaly);
+      if (!owners) void blame(anomaly);
+    }
   }
 }
 
 /** A surge's withdrawals don't say whose they were, so ask RIPEstat about a few of them */
 async function blame(surge: Anomaly) {
-  if (enriched.has(surge.id)) return;
-  enriched.add(surge.id);
+  if (blamed.get(surge.id)) return;
+  blamed.set(surge.id, []);
   const owners = new Map<number, number>();
   await Promise.all(
     surge.sample.slice(0, 3).map(async (prefix) => {
@@ -148,8 +168,11 @@ async function blame(surge: Anomaly) {
       for (const asn of body?.data?.asns ?? []) owners.set(+asn, (owners.get(+asn) ?? 0) + 1);
     })
   ).catch(() => {});
-  const blamed = [...owners].sort((a, b) => b[1] - a[1]).map(([asn]) => asn);
-  if (blamed.length) queue([{ ...surge, others: blamed.slice(0, 3) }]);
+  const top = [...owners].sort((a, b) => b[1] - a[1]).map(([asn]) => asn);
+  if (!top.length) return;
+  blamed.set(surge.id, top.slice(0, 3));
+  // the surge has probably grown while RIPEstat was thinking, so update the latest copy
+  queue([surges.get(surge.id) ?? surge]);
 }
 
 function hear(raw: string) {
@@ -157,7 +180,8 @@ function hear(raw: string) {
   tally.bytes += raw.length;
   const update = parseRis(raw);
   if (!update) return;
-  vantage.heardFrom(update.peer, Date.now());
+  lastHeard = Date.now();
+  vantage.heardFrom(update.peer, lastHeard);
   const { changed, anomalies: found } = detector.ingest(update, Date.now());
   queue(found);
   tally.announced += update.announced.length;
@@ -174,17 +198,25 @@ function hear(raw: string) {
     }
   }
 
-  if (update.withdrawn.length) {
-    const origin = detector.originOf(update.withdrawn[0]);
-    count(origin, 0, update.withdrawn.length);
-    if (origin !== undefined) ledger.withdraw(origin, update.withdrawn.length, update.time);
-    if (budget-- > 0) {
-      const from = locate(update.peerAsn);
-      const to = origin === undefined ? undefined : locate(origin);
-      if (from && to) routes.push({ kind: 1, asns: [update.peerAsn, origin!], points: [from, to] });
-      const at = to ?? from;
-      if (at) ripples.push({ kind: 1, at });
-    }
+  if (update.withdrawn.length) withdraw(update);
+}
+
+/** One message can withdraw routes from several networks, so each gets its own share */
+function withdraw(update: Update) {
+  const byOrigin = new Map<number | undefined, number>();
+  for (const prefix of update.withdrawn) {
+    const origin = detector.originOf(prefix);
+    byOrigin.set(origin, (byOrigin.get(origin) ?? 0) + 1);
+  }
+  const from = locate(update.peerAsn);
+  for (const [origin, withdrawn] of byOrigin) {
+    count(origin, 0, withdrawn);
+    if (origin !== undefined) ledger.withdraw(origin, withdrawn, update.time);
+    if (budget-- <= 0) continue;
+    const to = origin === undefined ? undefined : locate(origin);
+    if (from && to) routes.push({ kind: 1, asns: [update.peerAsn, origin!], points: [from, to] });
+    const at = to ?? from;
+    if (at) ripples.push({ kind: 1, at });
   }
 }
 
@@ -230,13 +262,14 @@ onmessage = async ({ data }: MessageEvent<ToWorker>) => {
       if (!response.ok) throw new Error(`asn.txt answered ${response.status}`);
       table = parseAsnTable(await response.text());
       names = createNames(`${data.base}/data`, table);
+      loaded();
       connect();
       break;
     }
     case 'level': {
       level = data.level;
       // a new rate would read as a surge against the old baseline
-      detector = new Detector();
+      detector = freshDetector();
       const { add, drop } = vantage.resize(levels[level].peers, Date.now());
       for (const peer of drop) send('ris_unsubscribe', peerFilter(peer));
       for (const peer of add) send('ris_subscribe', peerFilter(peer));
@@ -257,15 +290,18 @@ onmessage = async ({ data }: MessageEvent<ToWorker>) => {
       if (watch) send('ris_subscribe', watchFilter(watch));
       break;
     case 'name':
+      await ready;
       post({ type: 'name', asn: data.asn, name: await names?.(data.asn) });
       break;
     case 'locate':
+      await ready;
       for (const asn of data.asns) {
         const at = locate(asn);
         if (at) places.set(asn, at);
       }
       break;
     case 'inspect':
+      await ready;
       post({
         type: 'network',
         network: {

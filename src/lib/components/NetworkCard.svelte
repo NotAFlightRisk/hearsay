@@ -26,7 +26,9 @@
   <header>
     <div>
       <p class="asn">AS{asn}</p>
-      <h2 id="network-name">{name ?? 'Looking it up…'}</h2>
+      <h2 id="network-name">
+        {name === undefined ? 'Looking it up…' : name || 'No name on record'}
+      </h2>
       {#if countryName(network?.country)}<p class="where">
           Registered in {countryName(network?.country)}
         </p>{/if}

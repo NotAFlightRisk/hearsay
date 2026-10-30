@@ -28,11 +28,13 @@
 
     span {
       flex: 1;
-      height: calc(8% + var(--level) * 92%);
+      height: 100%;
+      transform: scaleY(calc(0.08 + var(--level) * 0.92));
+      transform-origin: bottom;
       background: var(--text-muted);
       opacity: 0.45;
       border-radius: 1px;
-      transition: height 0.4s var(--ease-out);
+      transition: transform 0.4s var(--ease-out);
     }
 
     .now {
