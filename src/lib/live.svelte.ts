@@ -89,7 +89,7 @@ export class Live {
       this.#asked.add(asn);
       this.#worker.postMessage({ type: 'name', asn });
     }
-    return name || undefined;
+    return name;
   };
 
   #remember(asn: number, at: Place) {

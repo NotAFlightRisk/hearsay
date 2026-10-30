@@ -31,7 +31,9 @@ const MOST_WATCHED_ROUTES = 12;
 const STALE_MS = 60_000;
 
 const post = (message: FromWorker) => postMessage(message);
-let detector = new Detector();
+// ten-hop prepends turn up every few seconds, so only the truly silly ones make a bulletin
+const freshDetector = () => new Detector({ prependTimes: 25 });
+let detector = freshDetector();
 const vantage = new Vantage(vantagePeers as Peer[]);
 const ledger = new Ledger();
 
@@ -46,6 +48,9 @@ let paused = false;
 let retries = 0;
 let retryTimer: ReturnType<typeof setTimeout> | undefined;
 let lastHeard = 0;
+let loaded: () => void;
+// lookups wait for the ASN table, or a deep link asks before there's anything to answer with
+const ready = new Promise<void>((resolve) => (loaded = resolve));
 
 const fresh = (): Tally => ({ messages: 0, bytes: 0, announced: 0, withdrawn: 0, changed: 0 });
 let tally = fresh();
@@ -79,7 +84,7 @@ function connect() {
   socket = ws;
   ws.onopen = () => {
     retries = 0;
-    if (Date.now() - lastHeard > STALE_MS) detector = new Detector();
+    if (Date.now() - lastHeard > STALE_MS) detector = freshDetector();
     for (const peer of vantage.reset(levels[level].peers, Date.now()))
       send('ris_subscribe', peerFilter(peer));
     if (watch) send('ris_subscribe', watchFilter(watch));
@@ -257,13 +262,14 @@ onmessage = async ({ data }: MessageEvent<ToWorker>) => {
       if (!response.ok) throw new Error(`asn.txt answered ${response.status}`);
       table = parseAsnTable(await response.text());
       names = createNames(`${data.base}/data`, table);
+      loaded();
       connect();
       break;
     }
     case 'level': {
       level = data.level;
       // a new rate would read as a surge against the old baseline
-      detector = new Detector();
+      detector = freshDetector();
       const { add, drop } = vantage.resize(levels[level].peers, Date.now());
       for (const peer of drop) send('ris_unsubscribe', peerFilter(peer));
       for (const peer of add) send('ris_subscribe', peerFilter(peer));
@@ -284,15 +290,18 @@ onmessage = async ({ data }: MessageEvent<ToWorker>) => {
       if (watch) send('ris_subscribe', watchFilter(watch));
       break;
     case 'name':
+      await ready;
       post({ type: 'name', asn: data.asn, name: await names?.(data.asn) });
       break;
     case 'locate':
+      await ready;
       for (const asn of data.asns) {
         const at = locate(asn);
         if (at) places.set(asn, at);
       }
       break;
     case 'inspect':
+      await ready;
       post({
         type: 'network',
         network: {
