@@ -1,4 +1,4 @@
-import { Lru, RouteMemory, pathKey } from './memory.ts';
+import { Lru, Recent, RouteMemory, pathKey, routeKey } from './memory.ts';
 import { clique, prefixTrouble, reservedAsn } from './networks.ts';
 import type { Anomaly, AnomalyKind, Asn, Severity, Update } from './types.ts';
 
@@ -10,11 +10,13 @@ export const defaults = {
   leakHighPeers: 3,
   leakWindow: 10 * MINUTE,
   originPrefixes: 2,
+  originPeers: 1,
   originMediumPrefixes: 5,
   originHighPrefixes: 50,
   originHighPeers: 3,
   originWindow: 10 * MINUTE,
   withdrawalPrefixes: 20,
+  withdrawalPeers: 2,
   withdrawalHighPrefixes: 100,
   withdrawalHighPeers: 2,
   withdrawalWindow: MINUTE,
@@ -26,8 +28,10 @@ export const defaults = {
   /** how slowly the normal withdrawal rate moves */
   surgeBaseline: 5 * MINUTE,
   flapToggles: 6,
+  flapPeers: 2,
   flapWindow: 5 * MINUTE,
   overSpecificPrefixes: 3,
+  bogonPeers: 1,
   oddityWindow: 10 * MINUTE,
   prependTimes: 10,
   /** a story that's still growing comes back at most this often */
@@ -101,7 +105,7 @@ export class Detector {
   readonly #windows: Record<AnomalyKind, number>;
   readonly #memory: RouteMemory;
   readonly #stories: Lru<string, Story>;
-  readonly #flaps: Lru<string, Flap>;
+  readonly #flaps: Recent<number, Flap>;
   readonly #touched = new Set<Story>();
   #started?: number;
   #lastTick?: number;
@@ -128,7 +132,7 @@ export class Detector {
     };
     this.#memory = new RouteMemory(limits.memory);
     this.#stories = new Lru(limits.stories);
-    this.#flaps = new Lru(Math.ceil(limits.memory / 5));
+    this.#flaps = new Recent(Math.ceil(limits.memory / 5));
   }
 
   originOf(prefix: string) {
@@ -257,7 +261,7 @@ export class Detector {
   }
 
   #toggle(peer: string, prefix: string, withdrawn: boolean, origin: Asn | undefined, now: number) {
-    const key = `${peer} ${prefix}`;
+    const key = routeKey(peer, prefix);
     const flap = this.#flaps.get(key);
     // only prefixes that have been withdrawn at least once get watched, which keeps this small
     if (!flap) {
@@ -291,18 +295,20 @@ export class Detector {
         // scrubbing services and anycast moves look just like this, so it takes a crowd to be high
         if (prefixes < limits.originPrefixes) return;
         if (prefixes >= limits.originHighPrefixes && peers >= limits.originHighPeers) return 'high';
-        return prefixes >= limits.originMediumPrefixes ? 'medium' : 'low';
+        return prefixes >= limits.originMediumPrefixes && peers >= limits.originPeers
+          ? 'medium'
+          : 'low';
       case 'withdrawals':
         if (prefixes < limits.withdrawalPrefixes) return;
         if (prefixes >= limits.withdrawalHighPrefixes && peers >= limits.withdrawalHighPeers) {
           return 'high';
         }
         // one peer losing routes says more about that peer than the network
-        return peers >= 2 ? 'medium' : 'low';
+        return peers >= limits.withdrawalPeers ? 'medium' : 'low';
       case 'flap':
-        return peers >= 2 ? 'medium' : 'low';
+        return peers >= limits.flapPeers ? 'medium' : 'low';
       case 'bogon':
-        if (reserved) return 'medium';
+        if (reserved) return peers >= limits.bogonPeers ? 'medium' : 'low';
         return prefixes >= limits.overSpecificPrefixes ? 'low' : undefined;
       case 'prepend':
         return 'low';

@@ -4,6 +4,7 @@ import node from '@sveltejs/adapter-node';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vitest/config';
+import { homepage } from './package.json';
 
 const plausible = process.env.PUBLIC_PLAUSIBLE_SCRIPT ?? '';
 const pulse = plausible ? [new URL(plausible).origin as `${string}.${string}`] : [];
@@ -12,6 +13,9 @@ const oops = sentry ? [new URL(sentry).origin as `${string}.${string}`] : [];
 const cloudflareBuild = process.env.ADAPTER === 'cloudflare';
 const workersStandIn = fileURLToPath(new URL('src/lib/server/workers.ts', import.meta.url));
 const uploadMaps = Boolean(process.env.SENTRY_AUTH_TOKEN && process.env.SENTRY_URL);
+const relay = process.env.RELAY;
+// 'self' should cover the relay's wss://, but older Safari doesn't read it that way
+const feed = `wss://${new URL(homepage).host}` as `${string}.${string}`;
 
 export default defineConfig({
   define: {
@@ -27,6 +31,7 @@ export default defineConfig({
     assetsInlineLimit: (file) => (file.endsWith('.woff2') ? false : undefined),
     sourcemap: uploadMaps && 'hidden'
   },
+  server: relay ? { proxy: { '/feed': { target: relay, ws: true } } } : undefined,
   worker: { format: 'es' },
   plugins: [
     sveltekit({
@@ -43,6 +48,7 @@ export default defineConfig({
           'worker-src': ['self'],
           'connect-src': [
             'self',
+            feed,
             'wss://ris-live.ripe.net',
             'https://stat.ripe.net',
             ...pulse,

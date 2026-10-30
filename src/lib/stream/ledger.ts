@@ -1,21 +1,26 @@
-import { Lru } from '#lib/bgp/memory.ts';
+import { Recent, hash } from '#lib/bgp/memory.ts';
 import type { Update } from '#lib/bgp/types.ts';
 
 interface Entry {
   announced: number;
   withdrawn: number;
-  prefixes: Set<string>;
+  prefixes: Set<number>;
   upstreams: Map<number, number>;
   lastSeen: number;
 }
 
-// enough prefixes to say "lots", without keeping a big network's whole table
-const MOST_PREFIXES = 500;
 const MOST_UPSTREAMS = 16;
 
 /** What we've heard about each network since the page opened, for its data block */
 export class Ledger {
-  #entries = new Lru<number, Entry>(30_000);
+  readonly #entries: Recent<number, Entry>;
+  readonly #mostPrefixes: number;
+
+  // enough prefixes to say "lots", without keeping a big network's whole table
+  constructor({ networks = 30_000, prefixes = 500 } = {}) {
+    this.#entries = new Recent(networks);
+    this.#mostPrefixes = prefixes;
+  }
 
   #entry(asn: number) {
     let entry = this.#entries.get(asn);
@@ -38,7 +43,7 @@ export class Ledger {
     entry.announced += announced.length;
     entry.lastSeen = time;
     for (const prefix of announced) {
-      if (entry.prefixes.size < MOST_PREFIXES) entry.prefixes.add(prefix);
+      if (entry.prefixes.size < this.#mostPrefixes) entry.prefixes.add(hash(prefix));
     }
     const upstream = path.at(-2);
     if (upstream === undefined) return;

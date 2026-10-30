@@ -3,7 +3,15 @@ import type { Anomaly, Incident, Severity } from '#lib/bgp/types.ts';
 import { forecastLine, regions, type RegionKey, type Visibility } from '#lib/forecast.ts';
 import type { Globe } from '#lib/globe/globe.ts';
 import type { World } from '#lib/geo/place.ts';
-import type { FromWorker, Level, Network, Place, Status, Watch } from '#lib/stream/protocol.ts';
+import type {
+  FromWorker,
+  Level,
+  Network,
+  Place,
+  Source,
+  Status,
+  Watch
+} from '#lib/stream/protocol.ts';
 
 const STEPS = 60;
 const WINDOW = 300;
@@ -25,6 +33,7 @@ export interface RegionForecast {
 
 export class Live {
   status = $state<Status>('loading');
+  source = $state<Source>('relay');
   detail = $state<string>();
   perSecond = $state({ updates: 0, announced: 0, withdrawn: 0, changed: 0, kilobytes: 0 });
   steps = $state<number[]>(new Array(STEPS).fill(0));
@@ -163,6 +172,7 @@ export class Live {
     switch (message.type) {
       case 'status':
         this.status = message.status;
+        this.source = message.source;
         this.detail = message.detail;
         break;
       case 'name':

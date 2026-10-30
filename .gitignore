@@ -18,7 +18,7 @@ node_modules/
 /dist/
 /.vercel/
 /.netlify/
-/.wrangler/
+.wrangler/
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
