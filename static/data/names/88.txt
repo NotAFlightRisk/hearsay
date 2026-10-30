@@ -1,0 +1,1024 @@
+INPLATLABS-AS DBS Technologies LLC
+JokiICT Joki ICT Oy
+SOK-AS SOK, SIA
+Gigasonic Commsworld Ltd
+Uzzppo Uprava za zajednicke poslove pokrajinskih
+psoft STURKOMERC-PETROLSOFT ING DOO BEOGRAD
+DIGIMOBILE 2Connect Telecommunications Infrastru
+FOX-NETWORK-AS Joshua Jones
+NIGSUN Nigsun Limited
+telenet-as TELENET.PL Sp. z o.o.
+Rockan01S Rockan Data Center AB
+FOUNTAINHEAD FOUNTAINHEAD TECHNOLOGIES LIMITED
+ONELAN ANTOINE JACOT-DESCOMBES
+AS-SPECIALHOST Michael Krockor
+CREDITURALBANK-AS "Credit Ural Bank" Joint Stock
+HILLER-AS Adrian Hiller
+Basil-Fillan Jack Fillan
+Internet Bargavachokh Tsantser LLC
+X-ION-WORLD x-ion GmbH
+HostSlim-Global-Network HOSTSLIM OU
+SLAVCONET Slavconet s.r.o.
+RACKPLACE LLC "RACKPLACE"
+KNOYDART The Knoydart Foundation Ltd
+pay360 Pay360 Ltd
+ADOARD ADOARD GLOBAL REACH LLC
+uk-itsystems IT Systems & Support Limited
+Ericsson-EBSTV Telefonaktiebolaget L M Ericsson
+JHNETWORK-AS Wang Junhao
+SC-Limited SC IP Limited
+tele-k Telematika Plus OOO
+INTER-CARRIER-AS Inter Carrier Ltd
+SK-FORTUNA-GAME FORTUNA GAME a.s.
+aslinkweb Link Web Solutions LLP
+Online-Company-Ltd Online Company for Technologi
+APPLAUSEDE Applause App Quality, Inc.
+RICKARDANDRI Rickard Andrinsson
+SOLUSQUARE SOLUSQUARE SAS
+intersat Telensa d.o.o.
+CONVEX-KIROVGRAD LLC Cifrovie Seti Urala
+BIZONE-AS "BiZone" LLC
+Q4Net Q4NET SPOLKA Z OGRANICZONA ODPOWIEDZIALNOS
+FINANCIAL IT & OPERATIONS LTD
+NNG NNG Kft.
+ahcloud AH CLOUD LTD
+CEGEKA-Rome Cegeka S.P.A.
+Debeka D e b e k a Krankenversicherungsverein au
+FREIFUNK-ENSE-AS Rene Preuss
+Rede Energeticas Nacionais, S.A.
+Wofbit-Networks Cyrus Mbitao trading as Wofbit N
+SKYNET-AS Skynet Plus LLC
+UNITED-AS AMC SRL
+TKI-2 ThyssenKrupp Information Management GmbH
+ICU-AS ICU Solutions B.V.
+DIOGO Diogo Castro
+QUICKLINE Quickline Communications Limited
+PSOE-CEF_AS Partido Socialista Obrero Espanol (P
+Masternet FOP Razin
+MAKFA-AS JSC MAKFA
+DGPCO Dadeh Gostar Parmis PJS Company
+Christian-Burger Christian Burger
+STREAMLET-AS Streamlet Ltd.
+usamv Universitatea de Stiinte Agronomice si Med
+INTERNETNORD-DE-CUST IN InternetNord GmbH
+LEOBEN-AS Stadtgemeinde Leoben
+BALOCCO Balocco s.p.a. Industria Dolciaria
+RUCOMTECH-AS RUCOMTECH LLC
+PHOENIXNAP-SRB PHOENIX NAP, LLC.
+Giotsas Vasileios Giotsas
+AUREA AUREA ENERGIA Y TELECOMUNICACIONES S.L.
+PACKETHUBSA PacketHub S.A.
+LiveLinkISP Live Link Internet Service Provider
+NWRK-OFFICE-AS New Work SE
+SKYENET Sleat Community Trust
+nakhljonoob Ertebat Gostare Nakhl Jonoob Company
+HMX HMX Hungarian Media Exchange Kft
+hosttech-AS hosttech GmbH
+BG-SOFCOMPANY-AS SOFCOMPANY Ltd
+Solutions-Services-Systems-3S 3 S S.R.L. SOLUTIO
+netikom-as Netikom SRL
+NETCOM-AS Nexera SAS
+IOSS-AS I.O.S. Software Solutions SRL
+SNAWNET Julien Sansonnens
+ERIKLARSSON-ANYCAST Lars Erik Reuterborg Larsson
+as_azylis AZYLIS SARL
+GARDIO-CUST-STHLM Gardio AB
+cz-stream-it Stream-iT, s.r.o.
+LUSEYA-PLYUS-AS PE Luseya Plyus
+STORMNET Stormnet Hosting LTD
+KAMPINOS-AS LAITO Sp. Z O. O.
+CAMESPA-AS CAME S.P.A.
+WORLDCDN Clouvider Limited
+Hartum_TV_SRL HARTUM TV SRL
+Factory-Campus Factory Campus Verwaltungs-GmbH
+US-PHX Nagravision Sarl
+l3climited-as L3C Limited
+SKYCD-ES-AS Sky UK Limited
+PRIMANET PRIMANET SRL
+OOO5COM OOO 05COM
+SYSTEMAIR-ASN Systemair AB
+amccomp-master-brno mapnet IT services s.r.o.
+BUSINESS-TRADE-AS Business Trade Ltd
+Brayden-Net Brayden Herrell
+EuroCDN EG Sp. z o.o.
+ACREDIA-AS Acredia Versicherung AG
+PROSTO-INETRA PRO STO
+uk_northrop Northrop Grumman UK Limited
+WIFIGUAY-JEYCA Jeyca Tecnologica Y Medio Ambient
+OPENFIBER OPENFIBER B.V.
+Juliana-Multimedia Juliana Multimedia SARL
+etevat Frendy Oy
+wilroff WilroffReitsma B.V.
+hud HCL Technologies Germany GmbH
+rnitelco Riviera Networks Inc SAS
+S-Corporation Simeonov Corporation LTD
+airconect Free Technologies Excom S.L.
+LT-RDNS Kauno Technologijos Universitetas
+TKRJASEK TKR Jasek, s.r.o.
+AS207188 Clearstream Services S.A.
+SANDEFJORD-LUFTHAVN SANDEFJORD LUFTHAVN DRIFT AS
+Yuhonet YUHONET INTERNATIONAL LIMITED
+T2OAS T2O AD MEDIA SERVICES S.L.
+OPTINETWORKS Anfeya LLC
+SGN-IN Saint Gobain Group Digital & IT Internati
+TOTALCOMPUTERS Total Computer Services Ltd
+ipwholesale Intelligent Exchanges Limited
+VIRTIFY-NET Luca Heidemann
+de-rohwerder Rohwerder Datasystems GmbH
+KTKCZ Kabelova televize Koprivnice, s.r.o.
+ZITCOM team.blue Denmark A/S
+Krisdev Kristian Hoyle-Johnson
+NORMANN Normann Engineering GmbH
+lighthouse Lighthouse Network Ltd Oy
+TIMEWARP-AS TIMEWARP IT Consulting GmbH
+CNK Centrum Nauki Kopernik
+ITSS-AS IT System Solutions LLC
+DataArt DATAART POLAND SPOLKA Z OGRANICZONA ODPO
+YL30 Yandex.OFD LLC
+Mevspace-projects MEVSPACE sp. z o.o.
+IT-ZAVOD IT-Zavod LLC
+SW-COTTBUS-AS Stadtwerke Cottbus GmbH
+Uskudar-Belediyesi Uskudar Belediyesi
+KSWELKTRO KSW Elektro und Industrieanlagenbau Gm
+TAMONE-OU TAMONE OU
+nxhop Ybuconseil SASU
+JOGCORP Jogcorp SAS
+azurip AZUR IP SAS
+HAWE-CDN Hawe Telekom S.A.
+GBS-AS GOSPODARCZY BANK SPOLDZIELCZY W BARLINKU
+Rottenmann Staedtische Betriebe Rottenmann GmbH
+RDNET-AS LUKASZ KUZMINSKI trading as RADIO-NET
+XPR Exprivia Spa
+GLOBALCON Global Connections Network LLC
+VOX-AS BLOCKROCK (CH) SA
+INFINITY-TELECOM-ASN Infinity Telecom SAS
+DIGITAL-IMPACT Digital Impact B.V.
+ASN-boot Bootstrap srl
+RAKETA-NET-AS Uplink Ltd.
+RRB Bank RRB JSC
+MyGamesSwitzerland MY.GAMES B.V.
+FuturNET-AS FuturNET, s.r.o.
+BE-CHIREC-D CHIREC asbl
+IPLUS Iplus Magyarorszag Kereskedelmi es Szolgal
+AS-MBN Mobile Breitbandnetze GmbH
+GURZUF-21-VEK-AS GURZUF-21-VEK
+WIDENET Widenet Internet Szolgaltato Kft.
+Sibiz Sibiz S.R.L
+GiG-net LLC G&G-Telecom
+USN-AS JSC "Ufanet"
+IBKR-GB-AS IBKR Financial Services AG
+NOEL NOEL, s.r.o.
+DE-MIELE-AS207243 Miele & Cie. KG
+Beetec Beetec Telekom LLC
+DSTI-ASN DSTI Holdings Limited
+NETSAT_DV NETSAT DV SRL
+vsqloud VS Qloud Solution GmbH
+ICS Icard Services PLC
+TheNationalBankoftheKyrgyzRepublicAS The Nationa
+caspel CASPEL LLC
+Realtox-Media Felix Gassan
+AS_ZEAG NetCom BW GmbH
+EE-emeedia AS Postimees Grupp
+AS_MTVA Mediaszolgaltatas-tamogato es Vagyonkeze
+IONAUTOMATION MultiSafepay B.V.
+ARTEMIS Conor Liam Burns
+Energo Energo Ltd
+Diplomat_SET Diplomat Distributors (1968) Ltd
+luolakallio Luolakallio Oy
+PFEIFER-LANG-AS Pfeifer & Langen GmbH & Co. KG
+TUBITAK-BILGEM TUBITAK-BILGEM
+RapidNet RapidNet for Internet Services and Comm
+Remedy Remedy Entertainment Oyj
+AFiLIAS-SECONDARY-DNS Identity Digital Limited
+BIRSUNUCUM-ASN IBRAHIM POYRAZOGLU
+STREXP STRATEGIC EXPLORATIONS LTD
+AngelicoussisGroup MARAN TANKERS MANAGEMENT INC
+fiberlink-as Fiberlink LLC
+DATALINK-AS Swiss Datalink AG
+Vojtech-Linhart-Department-of-Telecom Vojtech Li
+PHAROAH-AS Pharoah Tools Limited
+Ectrading-AS Epsilon Commodity Trading GmbH
+gooisemeren Gemeente Gooise Meren
+irs IntReal Solutions GmbH
+RAIDER Michael Hayler
+MARKAHOST-TELEKOMUNIKASYON-LIMITED-SIRKETI Marka
+GRDF-AS GRDF SA
+HUH HUS Group
+Exact Exact B.V.
+ASPECT-AS1 Aspect LLC
+VIBERLAB-AS VIBER LAB LTD
+RUEDA-SISTEMAS-AS RUEDA SISTEMAS, S.L.
+Toledo-AS "Trading House "Toledo" Ltd.
+wwng Westfalen Weser Netz GmbH
+MSC-Belgium Mediterranean Shipping Company Belgi
+SENDER-AS UAB Sender.lt
+YUYANNET-SERVICE-AS-RIPE YANG HAOJING
+AdelTech Unittel Ltd
+tnsgrupo TNS GRUPO OLIVA VALLEY, SL
+Akhtar Akhtar Technologies Limited
+GETRESPONSE GetResponse S.A.
+c24-de C-24 Gmbh
+luckycloud luckycloud GmbH
+ASTRAL-EXPRESS Zhijiang Zangque Trading Co., Ltd
+SERVEUR_TECH Stephane Blondeau
+JACKMX Roman Sartov
+AYUMU-NETWORK Xilin Xie
+Y-KZ Y. Izdeu men Jarnama LLP
+TSS-AS MONTAZHTECHSERVICE COMMUNICATION LLC
+EVERIANET Everia Oy
+BJB2-AS Bank Julius Baer & Co. Ltd
+cinos Cinos Communications Services Limited
+LUXMED-AS Centrum Medyczne Luxmed Sp. z o.o.
+UIN-AS The national operator of wireless communi
+CHIUNGAIMAN-AS CHIU NGAI MAN
+InternetArchiveEU Stichting Internet Archive
+vaekstfonden Danmarks Eksport- og Investeringsfo
+JQ-Network Tiefu Chen
+NGEN NGEN, energetske resitve d.o.o.
+DIDWW-SG-AS DIDWW Ireland Limited
+KOMPLEKS-MEDIA-AS Kompleks Media LLC
+NMG-AS JSC National Media Group
+SE-OVIKSKOMMUN Ornskoldsviks Kommun
+DIDXL DidXL B.V.
+tiersbox Tiersbox SCOP
+AUTOPARTNER Auto Partner S.A.
+HostLAB HostLAB Bilisim Teknolojileri A.S.
+REALTV Real TV GmbH
+THRIVE-UK2 THRIVE OPERATIONS LIMITED
+PCF PCF Group S.A.
+ONE-NETWORK One Network L.L.C
+AIG Airport International Group
+Hoster-AST LLP "Kompaniya Hoster.KZ"
+DECIX-CPH-MAPS DE-CIX Management GmbH
+i-Community i-Community AG
+NETASSISTES Netassist SL
+CRA-QA Communications Regulatory Authority
+AS_ZZ Zhang Zongyu
+AIRNET42-AS Krugliakov Aleksandr
+RACKONE-IT-MI-01 Rackone Srl
+BOJING BOJING CO., LIMITED
+Infinirc Chao-Ju Chen
+asrinfopro Sarl ASR INFOPRO
+DUSTIN-MS-NO Dustin Norway AS
+CIT2-AS GKU CIT Kuzbassa
+TEHNOLINE-AS Tehnoline Telekom d.o.o.
+OPENNETWORKS Opennetworks Kft.
+Faratechnology Arshia Asadi
+TRANSROUTE-2 Transroute Telecom LTD
+AS_UMWS Wojewodztwo Swietokrzyskie
+Ruform Ruform LLC
+TeleConnect Teleconnect CZ s.r.o.
+Ka-net Ka-net
+VALBRUNA-AS ACCIAIERIE VALBRUNA S.P.A.
+TECHNOBERG2 Technoberg Beheer B.V.
+CGI-FR-AS CGI France SAS
+TochkaNetwork-AS Tochka Network LLC
+FORESCOUT-RIPE Forescout Technologies, Inc.
+AS_USERGATE LLC Usergate
+LINXDATACENTER-IX Svyaz VSD LLC
+Manuel_Antonio_Seijo_Bustamante Manuel Antonio S
+IT_IS_AG_RZ_Germany ITIS AG
+AMP Aeroport Marseille Provence SA
+REDIUM Redium B.V.
+NipponGases NIPPON SANSO EURO-HOLDING SL
+Abissnet-sha Abissnet sh.a.
+SKYNET-TELECOM-AS Skynet Telecom, LLC
+gec-bg GEC BG Ltd.
+LUNEO LUNEO Association
+ALTSPU-AS Federal State Budgetary Educational In
+hi5 Advania Sverige AB
+FIBO Fiber Operator B.V.
+CEB-AS CREDIT EUROPE BANK (Russia) JSC
+EG-AS Evolution Latvia SIA
+ingbueromutterlose-aszn01 DIRK MUTTERLOSE
+xtend Xtend New Media Sp. z o. o.
+TECHNOTORG-AS LLC PF TECHNOTORG
+AfraRasa-AS-2 Cooperative Afra ertebatat-e-sabet
+jk-wireless JEREMIAH KEANE
+GENERALSTELECOM AbziCom LLP
+original-as OOO Negotsiant
+CredinsBank Credins Bank Sh.A.
+AVIVASA Agesa Hayat Ve Emeklilik AS
+GRAVITEL-AS Gravitel OOO
+QUANTUM-AS Rick Bakker trading as Bakker IT
+PT-Network JING-SHIUN-CHEN
+osao Koulutuskuntayhtyma OSAO
+EDGROUP E LINKX a.s.
+ASN-RUBIX-FR RUBIX FRANCE HOLDING SAS
+AS_Clayton Clayton Donley
+MAXONY MAXONY Suisse SA
+EFIR-MUROM-AS EFIR LLC
+kering-ch Kering SA
+GETECOM-IMPORT Generacion Tecnologica De Comunic
+VXSOFT VXSOFT LLC
+ASD-AiTI-network ASD-AiTI LLC
+GOG-ASN Government of Gibraltar
+DeltaWilmar-AS Delta Wilmar Ukraine LLC
+fischerwerke fischerwerke GmbH & Co. KG
+ASN-TETRATEL Tetratel Comunicaciones SLU
+MESSAGGIO Messaggio Ltd
+servinga-EE servinga GmbH
+stts Simorq Tejarat Integrated Systems PJSC
+MARIGNAN-IMMO Marignan SAS
+BAUER-NET Matthias Bauer
+justo_comunicacions Free Technologies Excom S.L.
+CONTACTPL CONTACT.PL SPOLKA Z OGRANICZONA ODPOWI
+Ganawa-James-Juanah Ganawa Juanah
+NPAW Nicepeopleatwork, S.L.
+EMN-INFRA-1 Bestattungen Eisenmann GmbH
+CloudHost CLOUD HOST TECHNOLOGY LLC
+Richard-Marino Richard Marino
+Centauri Solutions, LLC
+AS_FR_BANDAINAMCOENT BANDAI NAMCO HOLDINGS EUROP
+MELNYCHENKO-AS Melnychenko Oleksandr Viktorovych
+STEILSOUTH-AS STEIL-SOUTH LTD
+HYNET Max Ouwens
+Innocode Innocode Oy
+GSS GSS Media Services GmbH
+IBILLY-MEDIA-GROUP-LTD IBILLY MEDIA GROUP LTD
+REDNET Rednet LLC
+KAPTEYAN Kapteyan Bilisim Teknolojileri Sanayi v
+AS_SITEC_CORSICA SOCIETE INFORMATIQUE ET TELEMAT
+AUB-Limited AUB Limited
+METROVAGONMASH JSC "METROVAGONMASH"
+GRC Generalni reditelstvi cel
+MARMITES MARMITES SARL
+MAINSPEED Greenfiber Internet & Dienste GmbH
+CHOICE CHOICE s.r.o.
+ORG-SA4498-RIPE PETERSBURG METRO
+KORVESNET Korves.Net USA LLC
+AS-BKT KEYRUNON LIMITED
+Hydro-12345 Norsk Hydro ASA
+NOVAsat Nova Set Trading Company CJSC
+ITURAN_AS Ituran Location and Control Ltd.
+AS_VAMH Vincent Maroun
+subsidiary of Halyk Bank of Kazakhstan
+STECH-AS OOO Smart Technologies
+PEMA-KOMMUNIKATIONER-AS Pema Kommunikationer AB
+Hostinity LEBREUILLY Jeremy trading as Hostinity
+LEAN Lean Company for Rental and Services of Inf
+PEARHOST-AS Ales Hruska
+aurigaspa Auriga SpA
+HOUGE-AS Chenyang Li
+FEYO Philipp Rintz
+PANGEA-CONNECTED Pangea Connected Limited
+AT-Avia OOO WestCall Ltd.
+YUUTEL yuutel GmbH
+AS-TEKNOSOS-INT TEKNOSOS BILISIM HIZMETLERI VE T
+RUNNINGBIT-AS running bit GmbH
+host-industry HOSTING INDUSTRY LIMITED
+LuxeNetwork Al-Jeel Al-Sabei Internet Services C
+VarangerKraftUtvikling Varanger KraftFiber AS
+NetDEF-US Network Device Education Foundation In
+SBFR Sebastien Beaufour
+AS-BKM Orange Belgium SA
+lihengyu Li Heng Yu
+SUNGYULI Sung Yu Li
+TPO The Production Office in Stockholm AB
+SOKOLHOSTING Sokol Media LTD
+Livetex-2 Omnichannel technologies LLC
+VATS_ON-AS OOO "ZVI Telecom"
+HatNet Hatnet Bilgi iletisim Teknolojileri ve Ti
+RLAN FOP Onuschak Oleg Volodimirovich
+PEACHY PEACHY SERVERS LIMITED
+PROMEDIA-IPV-AS4 DARIUSZ WESOLOWSKI trading as P
+BSH-KLM-AS Scientific-Production Enterprise Busi
+ALGOMEDIA ALGOMEDIA SAS
+de-wuerth-it Wurth IT GmbH
+msc-cruises MSC Cruises SA
+NETVIA Netvia Bilisim Yazilim Danismanlik Ticare
+AOV-ASN1 aov IT.Services GmbH
+routing-cafe Gustav Caplan
+SQTELE-AS SQ TELECOM, LLC
+RDKIT RDK IT Solutions B.V.
+ISP-GBL Individual Proprietor Boris L. Grigoryan
+PUESCHEL-AS Max Pueschel
+WICON Christodoulou Christos trading as Wicon
+GE-Net GE-net sarl
+JAMTKRAFT-ASN Jamtkraft AB
+saforwifi Safor Wifi, SL
+DIGITECH-RU-AS DIGI TECH LLC
+cesrey Cesrey Bilisim Teknolojileri Anonim Sirke
+DE-EXPERT Expert Mark GmbH
+ARCWARE ARCWARE GmbH
+MARTCOM-AS Mirela Bugdol trading as FHU Martcom
+BIKIN-AS Bikinskie Elektronnye Systemy OOO
+SPEED-LINE SPEED LINE SHPK
+NEU-MEDIANET neu-medianet GmbH
+INVINN-AS LLC Investments and Innovations
+SPLK-EMEA Splunk LLC
+NEW-CONNECTION-AS "NEWNET" LLC
+kstu-as Non-profit joint-stock company "Karagand
+SKYVDS Mehmet Uzunca
+verkkokauppa Verkkokauppa.com Oyj
+luca Luca Strick
+LONDSTOCK-APAC London Stock Exchange PLC
+CSLBehring CSL Behring AG
+HOSTOFF LLC "HOSTOFF CSL"
+HAKOM Croatian Regulatory Authority for Network
+AqabaIX-AS Arab Commission for Satellite Broadca
+MTKSRL MTK S.R.L.
+HAK-AS Hrvatski autoklub
+NIPIGAZ-AS JSC NIPIGAZ
+TEPENET TEPENET INTERNET TELEKOMUNiKASYON iLETiS
+EXODUSPOINT-CAPITAL-MANAGEMENT-UK ExodusPoint Ca
+ownsim Together Communication LTD
+mygaru_au Mygaru OU Private Limited Company
+ITRON-GMS-EMEA Itron Nederland B.V.
+LONDSTOCK-US London Stock Exchange PLC
+sausage Sausage Systems Ltd
+Dingfeng HK DINGFENG TECHNOLOGY INFORMATION LIMI
+ASFASNET FAS Vermietungs- und Beteiligungs-GmbH
+NyanLoliNetwork NYANLOLI LTD
+TIMOSCHAFFERT Timo Schaffert
+IELO-CH IELO Sarl
+DK-RMG Radiometer Medical ApS
+SONEXTIS SONEXTIS GmbH
+SEABECKSOLUTIONS-AS SEABECK SOLUTIONS LIMITED
+AS_BLOMME Stefan Blomme
+se-roxtec Roxtec International AB
+STEWAY-AS Steway Sp. z o.o.
+CloudConcept Cloud Concept S.A.
+econet Eco Net d.o.o.
+INNOSETI Innoseti LLC
+DUG-APIC-AUS DOWNUNDER GEOSOLUTIONS (LONDON) PTY
+FD-ME FAST DATA COMPANY FOR TELECOMMUNICATIONS A
+INFORMATICA95SERVIZI INFORMATICA95 SERVIZI SRLS
+EUROCOM Eurocom Innovazione srl
+SVTEL-AS Svyaztelecom LLC
+Shvabe JSC Shvabe
+AS207549 TheFinnaCompany Ltd
+OCLAYER OCLAYER LIMITED
+as-speedium Wijnand Schouten
+cambridge-consultants Cambridge Consultants Limi
+vuhuv Vuhuv Telekomunikasyon A.S.
+HALSERVICE HAL Service SpA
+CRUZ Centrum Rozwoju Uslug Zrzeszeniowych Sp. z
+ServerForge LLC
+EXPRES Sergey Kus
+VIKHOST Zubritska Valeriia Nikolaevna
+FloralAllians-AS Limited Liability Company Flora
+ZOLBIZZ ZOLBIZZ vzw
+POSEIDON Poseidon Laboratories LLC
+AS207564 Anders Hansen
+LD007-AS Chang Way Technologies Co. Limited
+teleone Teleone OU
+I-SERVERS-NORTH-EU IHOR HOSTING LTD
+SOLUTION-CLOUD SV-GBT IT-Service GmbH
+WINDHU-PRASETIA Windhu Prasetia
+IWBAD Stadtwerke Baden-Baden
+msplus-as Metro Servis + LLC
+ALEX-AS Alexandre Olemans
+brabeczc-as Zahradnicke centrum Brabec, s.r.o.
+PLAZMA s.r.o.
+laranstech-as LARANS GROUP LLC
+fibrafast-as Spadhausen SRL Unipersonale
+NUMBERONE DITT REDMOVIL SL
+GREENBONE-NETWORKS Greenbone AG
+VKONTAKTE-SPBKM-AS LLC VK
+BUULDY Emre Mert Delidere trading as Buuldy Bili
+technologicke-centrum-as Technologicke centrum a
+BEANS BEANS Entertainment GmbH
+dce DC ELECTRONICS EE
+DOYLE-AS Doyle (North West) Ltd.
+ASIBAITPARK FE IBA IT Park
+MIRASTEKSHORAT MIRAS TEKSHORAT LTD
+syma-as SYMA SAS
+LOCLIXIT-AS Matteo Filiberto Sciacca trading as
+SHUFERSAL_SET SHUFERSAL LTD
+GOENET Gesellschaft fuer wissenschaftliche Daten
+ZODIAK-AS Spoldzielnia ZODIAK
+CONNECTIVIA Connectivia S.r.l
+Hestronic Hestronic BV
+we-cloud Dominik Klages
+DKBS DKB Service GmbH
+iraqcell Iraqcell Communications Co. Ltd.
+ORBICO_AS Orbico doo
+aSocket_LLC Atlas Industries, Inc.
+EA-FR-LYON Electronic Arts Limited
+EA-CH-GENEVA Electronic Arts Limited
+curotec CuroTec ApS
+UNITED United Internet Ltd.
+SPD S.P.D. Hosting LTD
+Myweb Myweb srls
+NETSYST NETSYST SAS
+ANGARA-ASSISTANCE LLC ANGARA ASSISTANCE
+GoCodeIT Inc
+BaKuNet Phillip-Luca Bauer trading as Bauer & Ku
+UNI-BONN Rheinische Friedrich-Wilhelms-Universit
+XTT XTT Ltd Co. LLC
+NULLL Steffen Vogel
+AS-FUENLAN Sistemas informaticos y Servicios de
+XINYU-ZHANG XINYU ZHANG
+ALTROSKY Altrosky Technology Ltd.
+ELMA-TELEKOM ELMA TELEKOMUNIKASYON SAN.TIC.LTD.S
+DORIDIAN-AS Mark Dietzer
+HOSTART HOSTART LLC
+KentWifi-PlayNet Kentwifi Iletisim Hizmetleri LT
+AS_Solutions AS Solutions Ltd.
+Weiligmann Robin Weiligmann
+erg ERG S.P.A.
+as_tdc-ch Signalhorn AG
+dgc DGC AG
+c24 C-24 B.V.
+ESTYA-AS Eduardo Senin Herrero
+IDEBIL Idebil Teknoloji Limited Sirketi
+MEKOS Grouplink IT Solutions GmbH
+CLOUD88 Cloud88 S.R.L.
+SVINE Jan Betik
+NOSSPEED KADIR HUSEYIN TEZCAN NOSSPEED INTERNET
+DIGITAL-LINK Digital Link Limited Liability Comp
+MATTEOZANNIN Matteo Zannini
+ALEXHOST_SRL ALEXHOST S.R.L.
+PALMERS Palmers Textil Aktiengesellschaft
+TORINO E PIEMONTE EXCHANGE POINT
+cus1183 HOSTMEIN IKE
+XSG Expert Solutions Georgia LLC
+Treefaz TREEFAZ SASU
+sciensano Sciensano OI
+FWNETWORKS-AS F & W Networks Ltd
+Nexthink Nexthink SA
+INTENTION-AS Intention B.V.
+VDI-Service VDI service, LLC
+DNDX Datong Sun
+Koen Koen De Wit
+HOSTING-TECH Hosting technology LTD
+BISAS Key IoT Limited
+RHOE-GOVIX Rechnungshof Oesterreich
+DTCS Day Telecom Company (ltd.)
+EPINATURA Epinatura LLC
+erc-rosatom JSC "Emergency Technical Center of R
+zonevoice ZONEVOICE LIMITED
+CEGAL-NL Cegal AS
+SolNet-VPN-service BSE Software GmbH
+sdms Safe Decision Information Technology Compan
+KatieChapman Benjamin Chapman
+PARKIN Paul Parkin
+ascoo-it-solutions Ascoo-ITS BV
+OSS-SPB-AS OOO "Optimal'nye Sistemy Svyazi" (lim
+zibris Zibris AG
+Jerusalem_BANK Bank of Jerusalem Limited
+ITH-PL ITH sp. z o.o.
+KUNTARAHOITUS Kuntarahoitus Oyj
+DENSHI_AD DENSHI AD
+SITEVO SITEVO
+UK-PERFORMCONTENT Perform Content Services Limit
+VIPPS-AS STO AS
+LBPMERCADOEXPRESS LBP MERCADO EXPRESS S.R.L.
+SMART1-RU-AS Best Line Ltd.
+MEGALAN-NET-UA-AS Volkov Pavel
+StadtwerkeBonn Stadtwerke Bonn GmbH
+PDC1 Pars Databan Co
+KKB-CLOUD KKB KREDI KAYIT BUROSU ANONIM SIRKETI
+Maik-Polman Maik Polman
+jonasem Jonas Emilsson
+BAJTNET BAJTNET SPOLKA Z OGRANICZONA ODPOWIEDZIA
+CF_Cloud_Ext CloudFerro S.A
+moutarde-as Martin Moutarde
+BISTOQUETTE Saitis Network, N.Desir
+TEIKUMS Teikums JT SIA
+DIOSCURIA-AS PE DIOSCURIA
+BG-EGT-DIGITAL EGT DIGITAL EOOD
+CTC CTC, Joint Stock Company
+TELEKABEL-AS Telekabel Ltd.
+PL-LHS-PKP PKP Linia Hutnicza Szerokotorowa Sp.
+dataflair Mario Kurz trading as LUME Solutions
+DPP-AS Dopravni podnik hl.m. Prahy, a.s.
+IMMOBILIARE_IT Immobiliare.it S.p.A.
+ROSTURNER The Turner scientific research institu
+COOLBLUE Coolblue B.V.
+Reliable-Communications Reliable Communications
+DataGrid Talia Limited
+CUENCA Nostravant S.L.L.
+RIGHT-ANGLE Right Angle SRL
+APEIRONGLOBAL APEIRON GLOBAL Pvt. Ltd.
+JK-NETWORK Jyun-Kai Hu
+FISCHERDE Hans-Peter Fischer trading as Fischer
+PartsEurope-AS Parts Europe GmbH
+HECORE Benjamin ELIAS
+HIZHOSTING CNC BILISIM HIZMETLERI INSAAT SANAYI
+WSTELECOM_DE WS Telecom Inc
+dovilo-1 Effect ICT Solutions B.V.
+FZCO
+GIR-AS GLOBAL INTERNET SOLUTIONS LLC
+TECNALIA Fundacion Tecnalia Research and Innovat
+lcom-as Lcom s.r.l.s.
+AC-X Antonino Catinello
+ASICATEL Icatel Network S.L.
+Ru-hoster Udovikhin Evgenii
+coderrquitsreality Carlos Guisewite
+ASGFD-DE Glasfaser Direkt GmbH
+Yugandhar-Veeramachaneni YUGANDHAR VEERAMACHANEN
+TRDAMLA Netwifi Iletisim Hizmetleri Ltd. Sti.
+Webdade Web Dadeh Paydar Co (Ltd)
+VMW-AMS04 Vmware International Unlimited Company
+A5N Asbjorn Sloth Tonnesen trading as a5n
+Virterion EUROHOSTER Ltd.
+oitis Oitis Com Oy
+ASsappiAT Sappi Europe S.A.
+DiamWall DIAMWALL, LDA
+CEBE cebe Internet GmbH
+ISPVOIP Iway AG
+Quika COMMERCIS ME LTD
+SUPERNET24-AS Supernet24 Marek Dyrcz
+ASNOVA NOVA SYSTEM GRUP SRL
+EALTA Colm O Hici
+FLONETSRLS FLONET SRLS
+AMIRGT-AS Youssef Hamed
+as_axs_hilden Frings IT Solutions GmbH
+Miasto na Prawach Powiatu
+MEGALINK-AS Primak Evgenii Aleksandrovich
+MVINC-CORE Vincent Morvan
+A1SI-AS A1 Slovenija telekomunikacijske storitve
+IAAS365 IAAS 365, SL
+FRASER-AS Stephen Fraser
+AS_SUEC Staedtische Werke Ueberlandwerke Coburg
+Erbacom Erbacom bvba
+BRANDL-AS BRANDL RO S.R.L.
+BARNET Barnet LLC
+COLDERWOOD James Colderwood
+BOLTON Rory Bolton
+capstoneco Capstone Investment Advisors (UK), LL
+NumeriOne NumOne SARL
+HOSTEUR-NET-CORE-CH Hosteur SA
+CLOUDIUM-AS Cloudium LLC
+AS_INTICHAR Mag. phil. Lorenz Intichar
+CRONOADSL CRONOADSL SRLs
+Campionlabs Campionlabs LTD
+EWB2-AS Elektrownia Wiatrowa Baltica-2 sp. z o.
+Transit-Networks-Limited Transit Networks Limite
+mtel-mk-as MTEL DOOEL Skopje
+AS_FERMORITE FERMORITE Systems, Applications and
+VIVANETDC VIVAnet DataCenter Kft.
+CANPOL Canpol Sp. z o.o.
+TOPNET-AS Top Net BG LTD
+HEPTABIT-AS Heptabit GmbH
+NETCOM INNET STREAMING network services d.o.o.
+BRITA BRITA SE
+ednt EDNT GmbH Energie-Daten-Netzwerk-Technik
+nl-bluefiber Bluefiber Holding B.V.
+Linservers Jacobus Huijbrechts
+ID-SYS Value IT SAS
+MCL-AS Marcel Menzel
+CNVL ALFA ILETISIM HIZMETLERI PAZARLAMA TICARET
+HYBIT-SERVICES HybrIT Services Ltd
+HSTL HOSTLINE, UAB
+Super-Network-IQ super network for internet serv
+ALLTHINGSTECH All Things Technology LLC
+yolo-as YOLO COLO AS
+SUPERNET-AS SUPER NET SA
+SWNNMS SWN Stadtwerke Neumuenster GmbH
+NTBS-AS NTB SOLUTIONS GmbH
+Darius-Jockel Darius Jockel
+Fernao Axians IT Service GmbH
+ONSEVER Online Sever LLC
+WSTelecom_France WS Telecom Inc
+sourena Sourena Pardazesh Arya Software co. LLC
+anygraaf Anygraaf Oy
+IMAC-AS IMAC SPA
+BOTANY BOTANY SRL
+RTIX Information System Authority
+Alexandre_Dupouy Alexandre DUPOUY
+SETKA-AS Provider "Setka" LLC
+EMENDERS-AS Emenders BV
+DSS-AB DSS AB
+ERCAN-ALCAM Ercan Alacam
+Corsica_Fibra_SAS Corsica Fibra SAS
+Tarn_Fibre_SAS Tarn Fibre SAS
+Gard_Fibre_SAS Gard Fibre SAS
+AS-DATA BrainStorm Network, Inc
+VTelecom "Virus Net" LLC
+SuperCell-ISP SuperCell ISP LTD
+DM_AUTO DM AUTO EOOD
+ACRI-ST-AS ACRI-ST S.A.S.
+AS1-LSM Luis Sanchez Martin
+Franciliens-net Association Franciliens.net
+IR-SEP Saman Kish Electronic Payment Company
+KMDINTERNATIONAL KMD A/S
+novametro NOVAMETRO OU
+SEVERENCHUK-AS FOP Mikola V. Severenchuk
+internetbolaget-de IN InternetNord GmbH
+NPK-MSA-AS "NPK Morsvyazavtomatica" LLC
+FIBRACITY Power & Telco SRL
+FluxXx KNUT PETTER OLBERG
+DATARYMDEN-AS Datarymden Internet AB
+iabank "INTERNATIONAL ASSET BANK AD"
+CSL-IOT CSL (DualCom) Limited
+DATENZUHAUSE Datenzuhause GmbH
+Esmero Esmero Holding B.V.
+LIMNET LIMNET , LLC
+SNOOZINGDEV Arunesh Timmer
+BCS3-AS BrokerCreditService Ltd.
+AS-ZLAYER Innovative Telecom Systems FZE
+creart-teknoloji CREART TEKNOLOJI ANONIM SIRKETI
+SDUBS-NET Scott Schulz
+ARMATIS-LC-PL Armatis LC Polska Sp.z.o.o.
+GGE FAU GlavGosExpertiza Rossii
+XIWO-MOBILE XIWO MOBILE SASU
+INFERNO Inferno Communications Ltd
+ktv JSC "Kolomenskoe TV"
+VBOXX vBoxx B.V.
+AS_VIKOM VIKOM SPOLKA Z OGRANICZONA ODPOWIEDZIAL
+EPICGA-DC5-AS Epic Games International S.a r.l.
+Lauren-Kelly Lauren Renee Kelly
+CloudBlast CloudBlast LLC
+MKONLINE-AS FOP Kolesov K.O.
+ESIEESPACE ESIEESPACE
+OGARDATA-AS HovNet-SERVIS s.r.o.
+FARA Fara AS
+Y525-Network Yonghan Ching
+NPO-UNIMACH-AS "NPO Unimach" LLC
+ModernTV-Anycast SychrovNET s.r.o
+DERIBIT Sentillia B.V.
+UkrInformSystems-AS UKRAINIAN INFORMSYSTEMS LLC
+DMBZ-AS Dmytro Moiseiev
+GLAVSTROY-AS GLAVSTROY Ltd
+VIAWEBNETTEL Via Web Net Telecom LTDA
+OC35 OUEST CONSULTING SARL
+ELEKSIR-AS "ELEKSIR NCO" LLC
+OLiKA-SE OLiKA AB
+pasi Social Protection Fund
+InCompanyMedia InCompanyMedia B.V.
+Bia-tech-ASN BIA-Technologies LLC
+HENNLICH Hennlich GmbH & Co KG
+GANZRUND-AT-AS GANZRUND Informatik GmbH
+EPICGA-DC4-AS Epic Games International S.a r.l.
+FFDDORF Freifunk Duesseldorf e.V.
+CTE1 OU CSC Telecom Estonia
+LOOKINGCENTER HOSTING GALLERY LLC
+TMTR-N TrackMotors LLC
+AS-SET-NEWAVE Roland Delia trading as NEWAVE
+safebeat-as Safebeat LLC
+HGM Ambrian Energy GmbH
+PULSEHEBERG-AS PULSEHEBERG SAS
+NETWORK-0X0A Mara Sophie Grosch
+KDP-TELECOM-AS LLC KPD-TELECOM
+DASHPERF-AS DASHPERF SAS
+malissa Pui-Hin Vincent Lee
+ECOMPEU-CZ ECOMP spol s r.o.
+FIOBANKA-AS Fio banka, a.s.
+UNETCO-AS Unetco Ltd.
+Intefluent Andrew Williams
+BLCKDRGN Black Dragon Connectivity Services B.V.
+DELTAX-LABS Tech Futures Interactive Inc.
+SWF Gemeente Sudwest-Fryslan
+TOURIST-CLUB-AS Tourist Club Ltd.
+ImenSana Gostaresh Ertebat Azin Kia Company PJSC
+MEGANETTEL-AS Meganet Tel LLC
+uk_northrop_2 Northrop Grumman UK Limited
+ASN-Greenet Greenet Netwerk BV
+VEUIBITS VEU I BITS, SERVEIS EMPRESARIALS S.L.
+ASUANIA Uania srl
+JVCM VERITA NETWORKS SOCIEDAD LIMITADA
+ELIA-AS Elia Kessler
+LUGOVOE Nikolai Anatolievich Andreenkov
+DAM64 Damien Lacoste
+ROCK-HOSTING Rock-Hosting SASU
+ASN-MS-DEVELOPMENT MARCIN SWIC trading as MS DEV
+CLAR-TELEVISON-SRL NEXT LEVEL BUSINESS SRL
+symeetric Invermae Solutions SL
+Velocity1UK Velocity1 Limited
+molnstruktur Molnstruktur IT Sverige AB
+Fereidoon-Hedayatinia Fereidoon Hedayatinia
+DEFAULTGATEWAY-EAST default gateway UG (haftungs
+azetel AZETEL LLC
+AIREON AVATEL TELECOM, SA
+AS207924 WideFM Ltd
+SQUIRREL-HQ Squirrel Internet Ltd
+DECIX-FRA-MAPS DE-CIX Management GmbH
+ALTAMEER Al-Tameer for Public Investments Limite
+IPA-AT-AS IP Austria Communication GmbH
+PRET-AS LLC PRYKARPATENERGOTREYD
+OEIFUA-AS PJSC PRIKARPATYAOBLENERGO
+NetNordicSwedenAB NetNordic Sweden AB
+WNB-AS WNB A/S
+INSITD-AS INSI Steal Constructions LLC
+DELIGHTNETWORKS-AS Konstantin Verba
+NAVICOM Devis Tognoni trading as DBS Elettronica
+NEOCOM_MK NEOCOM AD Skopje
+Kupschke Dominik Kupschke
+PATHY-AS JITEN PATHY
+ipcentral NiceCloud B.V.
+LSW LSW Netz Verwaltungs-GmbH trading as LSW Net
+capeta-system CAPETA-SYSTEM, S.L.
+CNI CNI Group s.r.o.
+ASHUECK Hydro Building Systems Ludenscheid GmbH
+KARLUNLIMITED Karl Unlimited AB
+BrestIX BrestIX
+AFD Agence Francaise de Developpement EPIC
+NSK-AS Nemzeti Sportugynokseg Nonprofit Zrt.
+PIB-AS Palestine Investment Bank
+ET-AS Evro Telecom OOO
+DEVOQ DEVOQ Technology I.K.E.
+SKYTELECOM TSK LLC
+OG-GR Orbyt Global S.A.
+LUXNET-AS JSC "Teleradiocompany Lux"
+ServHost-AS SERV.HOST GROUP LTD
+GLSROMANIA GLS General Logistics Systems Romania
+AS-TRANSRIGHTS AS207960 Cyfyngedig
+staralliance-closed Star Alliance Services GmbH
+AS5586 Kroell Bernhard
+ONEHOST-ASN IP Interactive UG
+GI-GROUP Gi Group Holding S.p.A
+ETIENNE-LABAUME ETIENNE LABAUME
+STSKZ AO "State Technical Service"
+IPOCEAN Nadezhda Mamaeva
+RAPPET Raphael Romeo Peters
+POINTS Fundacao para a Ciencia e a Tecnologia, I
+mailru-as LLC VK
+KEDIPES-LTD CYPRUS ASSET MANAGEMENT COMPANY LIMI
+ASparago Marco Bauce
+ISNET-AS ISNET W. MISTAK M. MISTAK SPOLKA JAWNA
+meditel Meditel Network SL
+Spectriot Spectriot LLC
+GreenSpruceISP GreenSpruce Internet Services LLC
+KSC-SB-RAS-AS FITS KNTS SO RAN
+ru_apex Dmitry Zhmurco
+am-tinsllc TINS LLC
+ENERGOTEL-AS ENERGOTEL a.s.
+Avebe Cooperatie AVEBE U.A.
+CODIT-GW Codit Teknoloji Tic. Ltd. Sti.
+AS-CRAZYPANDA Crazy Panda Rus Ltd.
+osuan OSUAN S.r.l.
+OZON-BANK-AS LLC OZON BANK
+emsystems EM SISTEMAS INFORMATICOS Y TELECOMUNIC
+PSIADE PSIADE SARL
+Data S.R.L.
+HR-CUSTOMER HostRoyale Technologies Pvt Ltd
+am-achon ACHON LLC
+feelb FEELB SARL
+Blockchain-Creek Blockchain Creek B.V.
+LightningFibre LF Holdco 2 Limited
+ungleich-place6 ungleich glarus ag
+DATAMAX-HOSTING-AS DATAMAX Artur Cebula
+rcSE regiocom SE
+MEGACOM Roberto Cardone trading as Megacom
+NORDLOVXOLBY Nordlo Vaxjo & Ljungby AB
+NGTEK HizliNet Teknoloji A.S.
+EMTIA-LINK Tsyapa Oleg Anatolyevich
+konicaminolta RSCS AS
+Raimun-System Gostaresh Ertebat Azin Kia Company
+ARVANCLOUD-CDN ARVANCLOUD GLOBAL TECHNOLOGIES L.
+libanpost Libanpost S.A.L
+LMV-AS Le Monlid LLC
+DADDYCLOUD-AS BelTechPlatforma OOO
+CAMBO Danilo Campestrin trading as CAMBO di Camp
+ITALIA CONNESSIONI DI LIGUORI ANTONIO
+HAYALNET Hayalnet Telekomunikasyon Iletisim Tica
+wantech-1 wantech gmbh
+IT-METRIX-AS IT METRIX S.A.R.L
+tcc-AS DIE Immobiliengesellschaft mbH
+tinc-AS The Infrastructure Company GmbH
+ASN-FASTKOM FastKom Srl
+hiperlansicilia Fiber Telecom S.p.A.
+AGL Attilio Giusti Leombruni SPA
+Immunity-AS Immunity Systems sp. z o.o.
+Chris-Allen Chris Allen
+TNEX Mehmet Ali Kilic
+GCG Global Cloud Games for video games and gener
+Alpenhost Ronald Agorsah trading as Alpenhost e.
+RGG5 RSG Group GmbH
+LITTLEWOODS LITTLEWOODS LTD
+GESTAMP GESTAMP SERVICIOS, S.A.
+saengerio-loeh Saenger Geschaftsfuhrungs GmbH
+latnet-kzo SIA "BITE Latvija"
+MazayaNET MazayaNET Communication Services Co.
+Burgasnet Burgasnet LTD
+Kliksafe Kliksafe B.V.
+RONOIT Rono-IT BV
+VENOM-ASN Venom IT Ltd
+Tecnocratica-extra Tecnocratica Centro de Datos,
+ITTAK-AS ITTak LLC
+userit USER IT A/S
+GhoFI RSS (RAPID SOFTWARE SYSTEMS) CYPRUS LTD
+INTERTELL Rafal Rajba trading as Intertell sp. z
+NETSOLUTION-BUSKERUD Netsolution Vestfold og Tel
+A3IT-AS Bredband2 AB
+CMLT-AS "Camelot-A" LLC
+GRUNERNETT Domeneshop AS
+MALIEVA KOGLER Gabin
+Inservicecenter ALET, LLC
+Mahannovin Tejarat Pardaz Mahan Novin Co. Ltd
+Superpay-2 SUPERPAY TEKNOLOJI ANONIM SIRKETI
+SAP_PCI_PEERING SAP SE
+SR2COM SR2 Communications Limited
+g00net Varteh LTD
+Clarins-HQ Clarins SAS
+ASEDNT EDNT GmbH Energie-Daten-Netzwerk-Technik
+SONA-AS2 Sona Network B.V.
+SMARTCOMRU Smartcom LLC
+FILI-01 Filip informatika d.o.o.
+InnoGames InnoGames GmbH
+GRMML Hermann Lienstromberg
+DRMAX-BDC Dr. Max BDC, s.r.o.
+TELE-CONTACT-RU Limited Company Telecontact
+PROFI_CONSTRUCT_MD PROFI-CONSTRUCT PRIM SRL
+NEXSTREAM Nexstream Pty Ltd
+NL-BLUE-WIRELESS Blue Wireless (Europe) B.V.
+LEICA-AS Leica Geosystems AG
+KSIEZYC Aves Sp. z o.o.
+GLUHIV-500-AS TRC Gluhiv-500 Ltd.
+ieleven Ludwig Moritz Hodiamont
+ATAXYA Cecile Morange
+tilytel TILYTEL Business S.L.
+Injazat-AS Injazat Technologies LTD
+ELIGASHT Eligasht Air Travel & Tourist Services
+odeal-teknoloji ODEAL TEKNOLOJI A.S
+FR-CARAIBE faraux frederic
+RSVO_Mirit_Sochi JSC Russian Broadcasting and No
+INFRA1-AS-EE Infra1 OU
+AS COMPASTELECOM LLP
+SMART-TV-DATA Smart TV Data Single Member P.C.
+ge-te Tbilisi Energy LLC
+FastBank Fast Bank CJSC
+GANTNER Gantner Electronic GmbH
+TSK TSK LLC
+ELVD PAVLOV DMITRIY
+Digdir-AS Digitaliseringsdirektoratet
+EDINOS-AS Ediniy Operator Svyazi LLC
+Drivenets Drivenets Ltd
+UNZER-AS Unzer Group GmbH
+ACOSC-CRIMEA KRYMSVYAZ LTD
+WOLFSEC-AS3 Stephan Roland Wolf
+global-consult Global Consult Group LLC
+msk Moravskoslezsky kraj
+EDV-SCHERER Christoph Scherer trading as EDV-SCH
+INTERNETTEN-TEKNOLOJI Internetten Teknoloji Bili
+SNUAU Serviciul de Telecomunicatii Speciale
+MoneyMovers-AS Money Movers LLC
+GPS THREDD UK LIMITED
+TR-AS TR-Project LTD
+RPOWER R.Power S.A.
+MK-RD Michael Kloos
+SRVCORE Individual Entrepreneur Rylov Roman Yrev
+zonaenergia Cesar Maffini Martin
+TREENET-AS TREENET LLC
+QBIC QBIC COMMUNICATIONS FZCO
+ASRZV RZV GmbH
+EvseevPavelNikolaevich Evseev Pavel Nikolaevich
+GREECE-TELECOM-AS Ioannis Roditis trading as Gre
+IDIADA IDIADA Automotive Technology, S.A.
+iiti-as DOLOMITES NETWORK S.R.L.
+BAREMETAL-AE Falcon FZE LLC
+ROMAN-EMPIRE ROMAN EMPIRE BV
+puzzle Puzzle Communication (F.Y) Ltd
+MediaNetISP SmartLink for Internet Services LTD
+ATHORA-IE Athora Ireland Services Limited
+SBERINSUR Insurance company "Sberbank life insur
+NI-Technology-Ltd N.I Technology Ltd.
+RUPTELA UAB Ruptela
+VWMEDIA LOBOS NETWORKING LTD
+Tractum-ISP TRACTUM FOR CONTRACTING LLC
+SPNA SPN Alliance Limited
+Ir_neginnet Negin Narmafzar Asak Research and In
+bonlinekw GULFNET COMMUNICATIONS CO. WLL
+vinet_hu ViNetwork Kft.
+BRS-BOI BOURSORAMA S.A.
+inetko LLC LTDNET
+zedtech Zed Bulut Teknolojileri ve Sistem Yoneti
+CLOUD-IQ Cloud Company for General Services Ltd
+suedtirolnet SUEDTIROLNET G.M.B.H
+INFRACARE2-AS InfraCare B.V.
+fluepke-net Carl Fabian Luepke
+PHOENIXNAP-BG CCBill EU Limited
+FPS12 Feo Prest SRL
+AS8540050958 Toprak Mahsulleri Ofisi Genel Mudur
+AVATOR FOP Avator Myhaylo Mykolayovych
+HUIC Elm Company PJS
+STAREGLIWICE-AS Spoldzielnia Mieszkaniowa 'Stare
+Rocket-Telecom-AS LLC Rocket Telecom
+amccomp-unin mapnet IT services s.r.o.
+ge-pasha PASHA Bank Georgia JSC
+TEL-NET-AS Krzysztof Frac trading as "TEL-NET"
+Caleano-AS Igor Scheller
+Snuggle Evie Snuggle
+jorist Jordanian Experts for Information Securit
+SKYTelecom-AS SKYTELECOM & SIA E.E.
+uk-eagle Eagle Aquila Ltd
+ITSG-DIGEN-AS ITSG Informationstechnische Servic
+CLOUDNETWORKS Cloud Networks B.V.
+NCSC-NL Nationaal Cyber Security Centrum (NCSC-N
+elin ELIN.hu Informatikai Szolgaltato es Tanacsa
+NUMEDY-AS Numedy LLC
+SFR SA
+MEME-AS CA/Meme Forum
+PINKCONNECT-AS Southern Communications Ltd
+parsvds Pars Shabakeh Azarakhsh LLC
+ATHENE-ABC Fraunhofer-Gesellschaft zur Foerderun
+stuttgarter_versicherung Stuttgarter Versicherun
+formicidae-holdings Formicidae Holdings B.V.
+SberLeasing AKCIONERNOYE OBSCHESTVO SBERBANK LIZ
+SHOPIMIND ShopyMind SAS
+FERMATA PRK Fermata
+be-connect4 STEL bvba
+FIBRESPEED FIBRESPEED, S.L.
+CSO-SRLS CSO S.r.l.s.
+PV-HOSTED Proton AG
+maya Maya Rayaneh Ravagh PJSC
+CAMLIN-AS CAMLIN TECHNOLOGIES LIMITED
+TeamViewer-EU TeamViewer Germany GmbH
+HYVE-MANAGED-HOSTING Hyve Ltd
+AS-CENTRINVEST Public Joint-stock company commer
+NLR Federal State Institution "National Library
+ACTIVECLOUD Pro Active Computers SRL
+cts Bluecube Cyber Security Solutions Limited

@@ -1,0 +1,1024 @@
+IT-STCOM Metrolink S.R.L.
+OMSK-SBRAS Sobolev Institute of Mathematics, Sib
+Tusass A/S
+PL-METROINTERNET Metro Internet Sp. z o.o.
+TAL-DE tal.de GmbH
+TELEZUG WWZ Telekom AG
+MYNET_TRENTINO_CORE_NET MYNET TRENTINO SRL
+AutonomousSystemRockensteinAG Rockenstein AG
+Siemens_UAE2 Siemens AG
+BURNET-AS PJSC Rostelecom
+ELMONET-AS ElmoNet Oy
+UNET-AS-MK UltraNet d.o.o.
+FINANSBANK QNB Finansbank A.S.
+netvoice Vintaro GmbH
+NETPLUS-LEGACY netplus.ch SA
+Resman Gmina Miasto Rzeszow
+VITRIFI Vitrifi Limited
+TWELVE99-IPX Arelion Sweden AB
+STRIPE-21-GROUP-LIMITED Compuweb Communications
+SDV-AS SDV6TM SAS
+US-NYC-MARLINK-MSS Marlink AS
+FINECOM-MPLS Quickline AG
+EMEA Ltd.
+ASN-TCO Federal State Unitary Enterprise "Televi
+TTL-AS CJSC "Telecomm Technology"
+CFT-AS JSC Center of Financial Technologies
+MELBICOM-EU-AS Melbikomas UAB
+EDGE GCI Network Solutions Limited
+Start-IT_LLC Start-IT LLC
+ASN-PROMO OPIQUAD S.P.A.
+UKRNET UkrNet Ltd.
+OSN OSN Online Service Nuernberg GmbH
+DELTA-BG-AS Delta HighTech Ltd.
+TEMP-RELUVA GTT Communications Inc.
+ASN-BIAMAN-EDU Politechnika Bialostocka
+VIVACOM-AS Vivacom Bulgaria EAD
+Israel
+IRCDN Khallagh Borhan Market Development for Cre
+SBS-AS2 ATOS BILISIM DANISMANLIK VE MUSTERI HIZM
+OVDC-AS Overseas Technologies LLC
+CHERKIZOVO-AS Cherkizovo Group PJSC
+WBERGNET Alexander Wagberg trading as Wberg Netw
+BARTELS_FE Oliver Bartels F+E
+SINMA-ASN sinma GmbH
+Lirbg-AS Lir.bg EOOD
+NFON-AS nfon AG
+DTS-Systeme DTS Systeme GmbH
+AII-AS0 Economedia AD
+VERSATEL 1&1 Versatel GmbH
+AS8882 AS8882 s.r.o.
+UBS AG
+CRIF-AS CRIF S.p.A.
+LAMBDANET-DE-AS euNetworks GmbH
+PGE-SYSTEMY-AS PGE Systemy S.A.
+TESATEL-AS TESATEL, s.r.o.
+XTOM xTom Pty Ltd
+INNOVATE-AS GO p.l.c.
+UW-AS University of Warsaw
+Orange S.A.
+SKLNK UAB Skylink LT.
+ARTFILES-AS Artfiles New Media GmbH
+NICE-AS Nice LTD
+ISU King Abdul Aziz City for Science and Technol
+XFIBER-AS GLOBALCONNECT AS
+KCOM-SPN KCOM Group Limited
+WHAN High-Speed Universal Broadband Services C.I
+DEUTSCHE-GLASFASER inexio Informationstechnologi
+GKU "Mosgortelecom"
+IFB CCS Connectivity Limited
+AS8903 LYNTIA NETWORKS S.A.
+BANK_OF_RUSSIA Bank of Russia
+DIGIT1-AS Digit One LLC
+SBP-AS SWISSLIFE BANQUE PRIVEE SA
+AMURSU Federal State Budgetary Educational Insti
+TESLATEL-AS TESLATEL SRL
+NETBENEFIT Aptum Technologies (UK) Limited
+IPNet Mopos Communications A.S.
+DELFA-AS Company Delfa Co. Ltd.
+PORTFAST Portfast Ltd
+GENERALMEDIA-AS General Media Group SRL
+CARRIER1-AS Coolwave Communications Limited
+VTC-AS JSC RTComm.RU
+FR-OC3NETWORK OC3 NETWORK SAS
+ORANGE MOLDOVA S.A.
+TEUTONET-AS teuto.net Netzdienste GmbH
+MOLDTELECOM-AS Moldtelecom SA
+INTEROUTE GTT Communications Inc.
+ASN-MEDIAFAX EX MEDIA SA
+UCOMINT Ucom CJSC
+NITC National Information Technology Center
+INTOUCH-INT-AS Nextpertise B.V.
+SALINK-AS VSE NET GmbH
+TMPL T-Mobile Polska S.A.
+RAGGE Hotel Reservation Service Robert Ragge Gmb
+MRSU-AS N. P. Ogarev's Mordovian State Universit
+Costar UK Limited
+JUMP Jump Networks Ltd
+ANADOLUBANK-AS Anadolubank A.S.
+PRIMO-099 099 PRIMO COMMUNICATIONS LTD
+JHEDBERG Johan Hedberg
+HELLASNET-GR Nova Telecommunications & Media Sin
+NTT-EUROPE NTT United Kingdom Ltd
+ASN-ORANGE-ROMANIA Orange Romania S.A.
+InTouch-AS Nextpertise B.V.
+Flens-net Stadt Flensburg
+SODACLUB-AS SODASTREAM INDUSTRIES LTD
+EMIRATES TELECOMMUNICATIONS GROUP COMPANY (ETISA
+EMIRATES TELECOMMUNICATIONS GROUP COMPANY (ETISA
+SHIX-Dubai EMIRATES TELECOMMUNICATIONS GROUP COM
+CUW-AS CENTRUM OBSLUGI ADMINISTRACJI RZADOWEJ IN
+Etisalat-AS EMIRATES TELECOMMUNICATIONS GROUP CO
+ISERVICE-BG-AS Internet Service Ltd.
+BT-Italia RETELIT-X S.R.L.
+WASK Wroclaw Centre of Networking and Supercompu
+Eviden Austria GmbH
+GD-EMEA-DC-SXB1 Host Europe GmbH
+SSVL Kungliga Tekniska Hogskolan
+CLARANETFR Claranet SAS
+STREAMWIDE-AS Streamwide Romania SRL
+Vatican City State
+VSU Federal State Budgetary Educational Institut
+Netcetera-Skopje-AS Netcetera AG
+Nokia-AS Nokia Solutions and Networks Oy
+TELENOR-SE Telenor Sverige AB
+MSK-IX_Services Join-stock company "Internet Exc
+Amazon
+NUUDAY-IP-SERVICE-LAYER TDC Brands A/S
+AHRT-AS 4iG Telecommunications Holding Zrt
+HCMR-NET Hellenic Centre for Marine Research
+JOGBACK LARS MICHAEL JOGBAECK
+Tele2 Sverige AB
+ASN-SPBNIT PJSC Rostelecom
+TUMTTL-AS "Russian company" LLC
+AXINET-Com Axinet Communication sarl
+ESER-ASN Eser Telekom Sanayi ve Ticaret A.S.
+A1-SI-AS ZUPO D.O.O.
+RETN-AS RETN Limited
+SFR SA
+GEPSPD-AS CJSC "Giproenergoprom"
+DUF-AS heise & dumrath medien geschaeftsfuehrung
+ASN-VO Visual Online S.A.
+M247 M247 Europe SRL
+The Patent Office
+CEFAS Centre for Environment Fisheries and Aquac
+KBS-BANK-AS Krakowski Bank Spoldzielczy
+MDAM Marcus van Dam
+AS9020-FRAUNHOFER-IESE-KL Fraunhofer-Gesellschaf
+ISNET Is Net Elektonik Bilgi Uretim Dagitim Tica
+TWL-KOM-AS TWL-KOM GmbH
+LOTTERIEN-AS Oesterreichische Lotterien GmbH
+SIX-USA SIX Group Services AG
+ULI-MAIN MYNET S.R.L.
+OHOST OHOST GROUP LLC
+HOMETVPRO-AS SIA "HomeTV Pro"
+DEVCON-AS teuto.net Netzdienste GmbH
+EDPNETapp EDPNET Belgium BV
+LIDER-RF-DC Citytelecom LLC
+MEGAPORT Megaport (Deutschland) GmbH
+NEURONNEXION-AS Neuronnexion SCOP
+BAT-AS9038 Al Bahrainia al Urdunia Liltaknia Wa
+IIAT-AS Institute of information & analytical te
+USPU Ural State Pedagogical University
+SIX SIX Group Services AG
+SOLNET BSE Software GmbH
+AS9045 Tele2 Sverige AB
+AS9046 Tele2 Sverige AB
+AS9047 Tele2 Sverige AB
+FIXMAP Fixmap Sp. z o.o.
+ERTH-TRANSIT-AS JSC "ER-Telecom Holding"
+RTD Orange Romania S.A.
+IncoNet Data Management sal
+Unidad Editorial SA
+VSHOSTING-CDN VSHosting s.r.o.
+Verizon Ireland Limited
+PSN-AS Keldysh Institute of Applied Mathematics,
+Level3 Lumen Technologies UK Limited
+KAN-AUTO-AS KAN AUTO Ltd.
+AWS-EU-AS Amazon Data Services Ireland Ltd
+SAARGATE-AS VSE NET GmbH
+IIRUC-DIGICOM-SA Internet City Doi SA
+BCC EWE TEL GmbH
+one4vision GmbH
+AKADO-AS JSC Comcor
+UNIWA
+Cooolbox Cooolbox AD
+ORBOTECH-AS Orbotech Ltd.
+KOCSISTEM KOC SISTEM BILGI VE ILETISIM HIZMETLER
+RECOLETOS Unidad Editorial SA
+INIT-AS Retelit Digital Services S.p.A.
+UFSC-AS Federal State Budgetary Scientific Insti
+SIBIS-AS Sibirskie Innovacionnye Sistemy Ltd
+Umniah Bahraini Jordanian for Technology and Com
+GIN Ipex A.S
+AS9081 "B92" DOO BEOGRAD
+CARPENET carpeNet Information Technologies GmbH
+GSI-AS Goldman Sachs International
+SUPERMEDIA-AS SUPERMEDIA Sp.z.o.o.
+ASN-DOCKLANDS-DATA-CENTRE-LTD Docklands Data Cen
+RACKDOG-EU Rackdog, LLC
+Dalarna University
+ALTO LYNX ALTO SAS
+PRNE PR Newswire Europe Ltd.
+SWEDBANK-AS Swedbank AS
+OPENSYSTEMS-AS Open Systems AG
+LYNTIA_MSP_INTERNAL LYNTIA NETWORKS S.A.
+Istanbul Teknik Universitesi
+IBKR Financial Services AG
+SDNS Seven Digital Network Services LLC
+FinanzInformatik-AS-Nord Finanz Informatik GmbH
+Aspectra Convotis Schweiz AG
+ZIELMAN-EDU-AS Uniwersytet Zielonogorski
+CLIO-AS Clio S.R.L
+TISCALI-UK TalkTalk Communications Limited
+ios-net Adman LLC
+ABXnet Abraxas Informatik AG
+AGTelecom-AS "AMT GROUP TELECOM" Limited Liabili
+RH-AS Relcom HOST LLC
+POZMAN Institute of Bioorganic Chemistry Polish
+VLANT-AS VLANT LLC
+INFB-AS9115 Hostpapa UK Ltd.
+GOLDENLINES-ASN Partner Communications Ltd.
+Novo Banco, S.A.
+SOFTNET-AS SOFTNET d.o.o.
+KEEPIT-DK-CPH Keepit A/S
+TTNet Turk Telekomunikasyon Anonim Sirketi
+TECHNOELECTROSERVIS-AS Technoelektroservis Ltd.
+TimeWeb-AS JSC "TIMEWEB"
+IKBFU Federal State Educational Institution of H
+ORIONTELEKOM-AS Drustvo za telekomunikacije Orio
+COLT Technology Services Group Limited
+NETISSAT-AS Vivacom Bulgaria EAD
+Alpha Bank SA
+MTN SA
+HMS-AS LLC Managing Company Hydraulic Machines a
+ASUSPEKH ChP Uspekh
+BROADNET-AS Plusnet GmbH
+REGMED-AS Federal goverment entity for Scientifi
+ITEMAX-AS ITEMAX GmbH
+WOBCOM Wobcom GmbH
+ASN-UNO Uno Communications SpA
+University of Cyprus
+HYPERNEPH Hyperneph Ltd
+AS9141 P4 Sp. z o.o.
+Internexus Networks Limited
+ZIGGO Vodafone Libertel B.V.
+CHEMPIONEBI-AS Europebet LLC
+EWETEL EWE TEL GmbH
+BIHNET BH Telecom d.d. Sarajevo
+JN-AS Homaye Jahan Nama Co. ( Private Joint Stoc
+GIECB Groupement des cartes bancaires GIE
+Interconnect ML Consultancy
+ORANGE MOLDOVA S.A.
+BURSTFIRE-EU Burstfire Networks Ltd
+Qnet Quality Net General Trading & Contracting C
+BBC-TRANSIT BBC
+SAO-RAS Federal State Budget Institution The Spe
+TELENOR_DANMARK_AS Telenor A/S
+Credit Agricole SA
+PSL Poundbury Systems Ltd.
+TSTU The State Educational Institution of Higher
+Onlime-NET Onlime GmbH
+R-TEL-AS "R-TEL" LLC
+PROSODIEIBERICA-AS PROSODIE IBERICA SL
+CEGEKA-HASSELT Cegeka Groep NV
+WEBPARTNER Norlys Telco A/S
+TELINO-AS STUDIA DIGITAL SAS
+NOVASOL Awaze A/S
+MK-MOL-AS Company for Computer Services and Trad
+WHITEBIRD GLOBALCONNECT AS
+circIT Circ IT GmbH & Co. KG
+TOPEDGE TOP EDGE ENGINEERING S.R.L.
+ORG-RTL21-RIPE RTA Telecom Ltd.
+OFFICENET OfficeNet Systems Limited
+ALIENOR Alienor.net SARL
+comspaceAS COMSPACE GmbH & Co KG
+Robert Bosch Gesellschaft mit Beschraenkter Haft
+INFOCOMUNICACOES, S.A.
+INFOSERVE-AS InfoServe GmbH
+NEWNET Digital Space Group Limited
+LleidaNet LleidaNetworks Serveis Telematics S.A.
+ConXionEU NAVISITE OPCO LLC
+BECOMGMBH-AS becom Systemhaus Verwaltungs-GmbH
+KAZTELECOM-AS JSC Kazakhtelecom
+RENAM RENAM Public Association
+SWAF Swedish Armed Forces
+ZSSM-AS GYUSS PKF LTD
+EVROKONTAKT-STRUSSA-AS EUROCONTACT VELIKY NOVGOR
+AS_G-ENTERPRISES Gheorghiu Enterprises OU
+SNS-AS "SATELIT SERVIS" Ltd
+MAI Federal State Autonomous Educational Institu
+Marlink-MPLS Marlink AS
+WIN WIN S.A.
+WORK-AS Nawork Internet Informationssysteme GmbH
+DitekAS DITEK Ltd
+SUNRISE-AS9214 Sunrise GmbH
+vmind Vmind Bilgi Teknolojileri Anonim Sirketi
+PUNET Taiwan
+BT-Infonet
+WISEVAN GUARD Limited
+Provider of Legal and Regulatory information.
+BT-Infonet
+HSBC HongKong
+Intel Online Services Asia
+Spreaded across 35 locations in india
+Swoop Telecommunications Pty Ltd
+Telstra Global
+1-Net Singapore Pte Ltd
+RMZ NXT Campus 1B, Unit 401-402, 4th Floor
+PT. Total Info Kharisma
+SPEEDCAST Limited
+Bangladesh Online Ltd.
+China Mobile Hong Kong Company Limited
+Ntte Global Network (Brand Name)
+Sol One Application Delivery Network
+PT. Dunia Virtual Online
+AMP Capital Investors NZ
+HKT Global Operation (HK) Limited
+TATA ISP
+Perth based ISP
+Hyperlink Pty. Ltd.
+Fiji International Telecomunications Ltd
+N2N-AFE (Hong Kong) Limited
+CCH Australia Limited
+Diyixian.com (TW) Limited
+COMPASS NZ
+Teleguam Holdings, LLC
+National Institute of Education
+NHL-AS2 Netwise Hosting Ltd
+Telecom Vanuatu Limited
+Network Access via Frame Relay using unbundled (
+PT INTERLINK TECHNOLOGY
+Colonial is a major all-finance institution.
+New Media Group Limited
+Del Monte Philippines, Inc.
+Singapore Telecom
+QLD Cement Internet Connection
+CITEC
+Web Host Limited
+Multinet Pakistan Pvt. Ltd.
+Commonwealth Bank of Australia
+Sanford Securities Pty Ltd
+HKT Limited
+Academia Sinica
+EdgeIX Pty Ltd
+Fiveways International Limited
+Pang-Wei Tsai
+Over The Wire Pty Ltd
+Hong Kong Broadband Network Ltd.
+National Infomation Society Agency
+Wonkwang University
+HANSOFT, INC.
+ITCENENTEC CO.,LTD.
+Pusan National University
+Korea Astronomy Observatory
+JT Chinae Savings Bank
+SK Broadband Co Ltd
+Dynamite Internet
+EDS (Australia) Pty Ltd
+Servers Australia Pty Ltd
+Palmerston North Internet Exchange
+Lexicon Systems Pty Ltd
+Inspire IT Pty Ltd
+VicOne
+Technopark, Trivandrum, India
+KINX
+True Internet Data Center Company Limited
+Akhtaruzzaman t/a DB Technologies
+ASM PACIFIC TECHNOLOGY LIMITED
+GoHosting
+ONEQODE GAMING CARRIER
+21 Tampines Avenue 1
+NTT Com Asia Limited
+GNET INC.
+Logic World Pty Ltd
+Spirit Networks Pty Ltd
+Colocity Pty Ltd
+Beijing GuanghuanXuntong Digital Technology Co.,
+Philippine Long Distance Telephone Company
+Southern Computer Services
+Cynergic
+ASLINE LIMITED
+The Digital Lab 2007 Limited
+HGC Global Communications Limited
+China Internet Network Information Center
+RongHua Road No.11, Beijing Economy Technology D
+Shenzhen Runxun Data Communication Co. Ltd.
+Abitcool(China) Inc.
+Ozemail/Access One Satellite
+HITRON TECHNOLOGY INC.
+xTom
+Network Technology (AUST) P/L
+Melbourne PC User Group Inc
+They Call Me Joe Pty Ltd
+DACOM-PUBNETPLUS
+INHA UNIVERSITY
+SK Broadband Co Ltd
+HCN CHUNGBUK CABLE TV SYSTEMS
+Supreme Court of Korea
+Hanyang University
+Institute of Information and Computing, EWHA WOM
+DONGGUK University
+Cynet & Total Network Support
+Spark New Zealand Trading Ltd
+PT Centrin Utama
+STRANDKIP Joseph Abley
+DATACOM SYSTEMS (AU) PTY LTD
+Sri Lanka Telecom Internet
+SAT Internet Services
+SAKURA LINK LIMITED
+Wannan Trading Pty Ltd
+MYANMAR INTERNET EXCHANGE ASSOCIATION INC.
+iManila
+National Telecom Public Company Limited
+XYZ Telecom Pty Ltd
+UUNET
+National Library of New Zealand
+CSLOXINFO
+INDO Internet, PT
+PT INDONESIA COMNETS PLUS
+Australian Broadcasting Corporation
+Voyager Internet Ltd.
+Voyager NZ Ltd
+Paradise Net
+Cynex Communications Corporation
+Capgemini Technology Services India Limited
+Victorian Cultural Network
+JPNIC-2Byte-ASBLOCK-AP
+JPNIC-2Byte-ASBLOCK-AP
+ZTV CO.,LTD
+KuMaGaYaNet
+MEDIAWARS co.,ltd.
+Community Network Center Inc.
+National Institute of Information and Communicat
+JPNIC-2Byte-ASBLOCK-AP
+NRI SecureTechnologies, Ltd.
+OPTAGE Inc.
+JPNIC-2Byte-ASBLOCK-AP
+JPNIC-2Byte-ASBLOCK-AP
+JPNIC-2Byte-ASBLOCK-AP
+JPNIC-2Byte-ASBLOCK-AP
+FUJITSU NETWORK SOLUTIONS LIMITED
+JPNIC-2Byte-ASBLOCK-AP
+its communications Inc.
+SOLITON-NET
+Institute of Science Tokyo
+JPNIC-2Byte-ASBLOCK-AP
+JPNIC-2Byte-ASBLOCK-AP
+SAKURA Internet Inc.
+SAKURA Internet Inc.
+JPNIC-2Byte-ASBLOCK-AP
+JPNIC-2Byte-ASBLOCK-AP
+EDION Corporation
+JPNIC-2Byte-ASBLOCK-AP
+SMARTVALUE Co.,Ltd.
+JPNIC-2Byte-ASBLOCK-AP
+JCOM Co., Ltd.
+JPNIC-2Byte-ASBLOCK-AP
+Community Network Center Inc.
+HKBN Enterprise Solutions HK Limited
+darktide.net
+Department of Employment and Workplace Relations
+MIKU NETWORK LIMITED
+Terry Crews
+Destiny Inc.
+SHARP TELECOM (PRIVATE) LIMITED
+Chengdu west dimension digital technology Co.,LT
+BEIJING SHENZHOU GREATWALL COMMUNICATION
+Shenzhen Tencent Computer Systems Company Limite
+GUANGDONG HIGHWAY BROADBAND NETWORK SERVICE CENT
+APT MOBILE SATCOM LIMITED
+No.16 S.St.Xizhimen, Beijing, 100035, P.R.CHina
+China TieTong Telecommunications Corporation
+BeiJing Guoxin bilin Telecom Technology Co.,Ltd
+Tikona Infinet Ltd.
+Internet Thailand Company Limited
+Amcom Telecommunications Ltd.
+CoreNET Inc.
+National Library of China
+State Information Center
+Institute of Scientific and Technical Informatio
+NETSLAND Center
+Test platform Service Center
+NSFC High Speed Testbed
+DRAGONTAP Internet Transit Access Point
+G. James Australia Pty. Ltd.
+Rapid-Fire-y (Tokyo)
+The Ogilvy Group, LLC.
+Kasetsart University, Thailand
+5G NETWORK OPERATIONS PTY LTD
+Shoalhaven City Council
+Innodata-ISOGEN, Inc
+AS9415-167
+Hoshin Multimedia Center Inc.
+Electricity Generation and Retail Corporation
+Computer Associates Asia Pacific
+Nanyang Technological University
+Maharlika Internet Exchange
+eis.net
+PT SOLNET INDONESIA
+ServerKing.io, LLC
+Qld Dept Local Govt and Planning
+Future Internet Technology Infrastructure (FITI)
+Westpac Bank
+Software Technology Parks of India,Block-IV
+The University of Auckland
+University of Canterbury
+Massey University
+Internet Initiative Japan, Inc.
+Suncorp Corporate Services Pty Ltd
+De-cix Interwire Internet Services Private Limit
+Netro
+Wellington Internet Exchange (Vital)
+JWT Co Ltd
+Next Online Limited.
+De-cix Interwire Internet Services Private Limit
+Vocus Retail
+Hong Kong Telecommunications (HKT) Limited
+Saturn Communications Ltd
+Maldives internet exchange
+Ford Motor Company of Australia
+PT. MEDIA NUSANTARA GLOBAL DATA
+QLD VoIP Services Australia
+Webex Communications Inc
+Bhairab Express Net
+Korea University
+SoongSil University
+Watch Tower Bible and Tract Society of Korea
+KERIS
+POSCO
+DREAMLINE CO.
+Public Officials Benefit Association
+Konkuk University
+Kyndryl INC
+Net2000 Pty Ltd
+BOLEHNET-ASN
+ESSENTIAL ENERGY
+Prince of Songkla University (Sritrang'NET)
+AGOTOZ PTE. LTD.
+UUNET Japan Limited
+UUNET Australia
+INTERACTIVE BROKERS LLC
+ONATI
+Level 23, Exchange Plaza
+Bourse Data Australia
+SmarTone Telecommunications Ltd.
+Walailuk University
+IntraPower Pty. Ltd.
+Internet Reach Group
+Micro 2000 Ltd.
+Operations & Technology Group
+SHOALHAVEN INTERNET
+M1 LIMITED
+Platform Networks Pty Ltd
+Flatnet Networks
+Mobinet LLC. AS Mobinet Internet Service Provide
+Internet TV Australia Pty Ltd
+King Mongkut's Institute of Technology Ladkraban
+Korea Technology Finance Corporation
+Seoul National University
+Korea Aerospace Research Institute
+Oscar Enterprise
+NICE
+Maeil Business Newspaper
+HMC SECURITIES CO., LTD.
+National Infomation Society Agency
+Hafari Pty Ltd
+Digital Telecommunications Philippines Inc.
+BHARTI Airtel Ltd.
+SUPERLOOP (AUSTRALIA) PTY LTD
+One New Zealand Group Limited
+AS number of Chemical & Metallurgical Design Co.
+Hong Kong Headquarters
+Two Degrees Mobile Limited
+DARKNESS-REIGNS-AS1 Darkness Reigns (Holding) B.
+Taiwan Internet Gateway
+Singtel Fibre Broadband
+NextHop Pty Ltd
+The Net Enterprises
+Department of Employment and Workplace Relations
+Saxby Enterprises T/A NetExcel
+RISE ASIA TECHNOLOGY LIMITED
+HK Cable TV Ltd
+Asia-Pacific Inter-Carrier services
+Compute Global Limited
+SAKURA LINK LIMITED
+Brisbane Catholic Education
+JDV Limited
+Vertical Telecoms Pty Ltd
+DaoHeng Bank
+Korea Automotive Technology Institute
+Shinhan Securities Co.,Ltd.
+Mokwon University
+Hyundai Autoever Corp.
+DB Securities Co.,Ltd.
+KOSCOM
+VP
+Chungcheongbuk-do Education Research and Informa
+hyundaicapital
+SHINSEGAE I C Co., Ltd.
+Gwangju Education Research Information Service
+MIRAE ASSET SECURITIES CO., LTD.
+King Mongkut's Institute of Technology North Ban
+Binariang Berhad
+INTERNET-SOLUTION -HK
+Macroview Telecom Limited
+Level48 Ltd
+Hoshin Multimedia Center Inc.
+VELOCIX LIMITED
+Cyber Internet Services (Pvt) Ltd.
+Westnet Internet Services
+Clarenston T/A Preferred Internet Provider
+Asia Pacific Network Information Centre
+Ministry of University Affairs
+Westpac Banking Corporation
+InternetPCI
+SUPERLOOP (AUSTRALIA) PTY LTD
+Vivanet Pty Ltd
+King Mongkut's University of Technology
+Department of Human Services
+Global Web Pty Ltd
+LMAX Hong Kong Ltd
+Verizon Australia PTY Limited
+iiNet Limited
+Paknet Limited Merged into PTCL
+PrimeCrown Technologies Private Limited
+Plain Communications Ltd
+Auckland Peering Exchange
+Mahasarakham University
+Apex Internet
+Australia and New Zealand Banking Group Limited
+Wholesale Communications Group
+Web Express
+Victoria Racing Club
+KOREA INSTITUTE OF MACHINERY   MATERIALS (KIMM)
+SEOCHO CABLE SYSTEMS CO., LTD.
+Jeonbuk Bank
+INICIS Co., Ltd
+Hankuk University of Foreign Studies Computer Ce
+KR Futures Inc
+Teachers Pension
+KCTC
+SookMyung Womens university
+KYOBO SECURITIES
+Cheiljedang.Co.Inc.
+Shinyoung Securities CO ., LTD.
+Reed Elsevier multi homes ISP connectivity for I
+TTPL
+Telstra Global
+Sify Limited
+Diyixian.com Limited
+Vision Internet Services
+IXTech Limited
+26th Floor 333/3 Moo 14 Chai Building
+Bridge Online Systems
+UUNET Hong Kong Ltd.
+The STock Exchange of HK Ltd.
+National Institute for Fusion Science
+SOFTBANK TELECOM Corp.
+Nikkei Inc.
+JPNIC-2Byte-ASBLOCK-AP
+NTT-ME Corporation
+JPNIC-2Byte-ASBLOCK-AP
+KDDI Web Communications Inc.
+NTT DOCOMO BUSINESS,Inc.
+EJWORKS CORPORATION
+So-net Corporation
+Niigata Communication Service
+JPNIC-2Byte-ASBLOCK-AP
+JPNIC-2Byte-ASBLOCK-AP
+FUJI SOFT INCORPORATED
+NTT DOCOMO, INC.
+Institute of Space and Astronautical Science, Ja
+BroadBand Tower, Inc.
+JPNIC-2Byte-ASBLOCK-AP
+BBIX, Inc.
+JPNIC-2Byte-ASBLOCK-AP
+JPNIC-2Byte-ASBLOCK-AP
+JPNIC-2Byte-ASBLOCK-AP
+JPNIC-2Byte-ASBLOCK-AP
+JCOM Marketing Co.,Ltd.
+TOYOHASHI CABLE NETWORK INC.
+WIDE Project
+JCOM Co., Ltd.
+catv-tokushima
+Sony Global Solutions Inc.
+JPNIC-2Byte-ASBLOCK-AP
+Okinawa Telecommunication Network Co.,Inc
+Kurashiki Cable TV
+@Home Network Australia Routing Domain.
+Banque Nationale de Paris
+Telstra Global Internet Services Network Blocks
+Optus Customer Network
+TCR Holdings Ltd
+TONGYANG LIFE INSURANCE CO., LTD.
+HYUNDAICARD CO.
+SK Securities Limited
+youngsan university
+SEOUL DAIRY CO-OP.
+SUDOKWON Landfill Site Management Corp
+Shinhan Securities Co.,Ltd.
+Pusan University of Foreign Studies
+NHNPayco
+Korea Basic Science Institute
+National Agricultural Cooperative federation
+Artist Company Inc.
+Korea Internet Security Agency
+Korea Development Bank
+Korea Internet Security Agency
+KICA
+SK Telecom
+NEXT SECURITIES CORPORATION
+eGIOS
+Seoul Metropolitan Government
+Australia On-Line Pty Ltd
+Information Technology Office
+QLD Government Business (IT)
+Jibon Bima Tower (4th Floor)
+ECN Internet
+Acme Plaza
+Myanmar Internet Exchange
+TPM Corp. Berhad,
+T-SYSTEMS SINGAPORE PTE LTD
+Melsa-i-net AS
+Eastern Telecoms Phils., Inc.
+Vocus National DSL Network
+Telecommunication and ISP company
+Morgan Internet Gateway
+OTO GK
+SOUTHEAST ASIA TELECOM(SG) PTE. LTD.
+Hong Kong Post Office Dept.
+AUTONOMY SOFTWARE ASIA PRIVATE LIMITED
+5G NETWORK OPERATIONS PTY LTD
+AMLINK Technologies
+Vocus Domestic Backbone
+Manila Internet Exchange
+Trade-Van Informaiton Services Co.
+Optus Customer Network
+Arumba Investments
+Far EastTone Telecommunication Co., Ltd.
+DW Solutions Ltd.
+SaveCom Internation Inc.
+Carl Watch Corporation
+HostingInside LTD
+IONET Taiwan Co., Ltd.
+HiNet Service Center in U.S.A
+Formosa Open eXchange(FOX)
+Medical Benefit Funds of Australia
+Seoul Facilities Corporation
+HANWHA Corp. Information Service div.
+KOAT
+SungKyunKwan University (SKKU)
+Korea Advanced Institute of Science and Technolo
+LG DACOM Corporation
+SK Broadband Co Ltd
+SMARTRO
+KYUNGSUNG UNIVERSITY
+Hanwha Investment   Securities Co., Ltd.
+KFTC
+Seokyung Cable Television Co.. Ltd.
+KISTI
+Oscar Enterprise
+LG HelloVision Corp.
+LG HelloVision Corp.
+Standard Chartered
+Korea Internet Security Agency
+viaweb
+Shinhan Bank
+Shinhan Bank
+Korea Investment Trust Management   Securities C
+SK Co.,
+BUSAN EDUCATION RESEARCH & INFORMATION INSTITUTE
+Korea Employment Information Management Agency
+Pukyong National University
+KIS Information Communication,Inc
+NeoWiz Corporation
+Kyonggi provin educational information research
+INet Technologies Co., Ltd.
+Victorian Tertiary Admissions Centre
+Vocus Cloud Services Australia
+SAMART Corp (Excise-Direct Coding Data Center)
+FOXTEL Management Pty Ltd
+NCS AU Pty Ltd
+Kordia Limited
+MTN Net Design (a division of Dyltax ACN 003 308
+GuangXi Seehu Technology Co., Ltd
+TPG Internet Pty Ltd.
+iseek Communications Pty Ltd
+Mission Internet
+WinShop Services
+Internet Service Provider
+Vibe Heavy Industries
+YTL Communications Sdn Bhd
+iAdvantage Limited
+Bharti Telesonic Ltd
+Speedcast Singapore Pte Ltd
+Digital Policy Office, HKSARG
+Netspace Services Limited
+Sensation Internet Services
+Hong Kong Domain Name Registration Co. Ltd
+5G NETWORK OPERATIONS PTY LTD
+TOT Public Company Limited
+Brennan IT
+ACASIA Communications Sdn Bhd, Network Service P
+Telstra Global
+CS Loxinfo Public Company Limited , 90 CW Tower
+GV Broadcast System, Inc., ISP using VSAT Techno
+Nippon EDUIX
+XLC GLOBAL
+Petar Nikolich
+Online Interactive gaming solution
+EZInternet Pty Ltd
+DE-CIX Jakarta Route Servers
+GPK Group
+FLETCHER BUILDING (AUSTRALIA) PTY LTD
+AMERICAN SAMOA TELECOMMUNICATIONS AUTHORITY
+Flipkart Internet Pvt Ltd
+Dong-A Universirty
+CHOSUN UNIVERSITY
+Korea Internet Security Agency
+SK Broadband Co Ltd
+CMB DONDAEMOON BROADCASTING
+abcle
+HIINVESTMENT SECURITIES CO., LTD
+Korea Telecom
+ASIANAIDT
+kt HCN Co.,Ltd.
+KIC for Agriculture
+Kakao Corp
+KRNIC-ASBLOCK-AP
+SHINHAN LIFE INSURANCE CO.,LTD.
+DB Inc.
+Korea Telecom
+Sejong University
+LG HelloVision Corp.
+Media Synnara
+Jeonbuk Bank
+HancomWITH
+Dongseo University
+Hannam University
+KOOKMIN BANK
+Gyeongju University
+DAEJIN UNIVERSITY
+NH FUTURES
+INJE UNIVERSITY
+GREEN CABLE TELEVISION STATION
+WooSong University
+KoROAD
+kbcard
+PT Berca Hardayaperkasa
+XIANDOUCLOUD INFORMATION TECHNOLOGY LTD
+Concept Networks
+Inland Revenue Department
+Datacom Co.,Ltd
+Two Degrees Networks Limited
+PERDANA Network AS Content Service Provider
+Corinthian Engineering Pty Ltd
+Smart-bets.com Lmited
+PT. Core Mediatech (D-NET)
+Ramsay Health Care, Health Services, Sydney Aust
+Internet Service Providers
+Nexon Asia Pacific P/L
+1 International Business Park
+NPGX Pty Ltd
+CHINA UNICOM
+A Building Haibo Masion, No.136 Xisihuan North R
+Abitcool(China) Inc.
+Beijing Jingxun Public Information Technology Co
+BeiJing Kuandaitong Telecom Technology Co.,Ltd
+SIEMENS LTD. CHINA
+Beijing International Technology Cooperation Cen
+Data Management Centre National Bureau of Statis
+China Mobile Communications Group Co., Ltd.
+SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.
+Beijing Times Netstar Technology Co.,Ltd
+Development & Research Center of State Council N
+Oriental Cable Network Co., Ltd.
+shanghai branch,network 263 group
+Beijing FibrLINK Networks Co.,Ltd.
+Beijing Gold First System Engineering Co.,Ltd
+Zhejiang WuLian Network Technology Co.,Ltd. Hong
+Guangdong Belton Telecommunications Technology D
+Internet Finance Laboratory
+Beijing Teletron Telecom Engineering Co., Ltd.
+Perth iX
+Department of Science and Technology
+Amnet IT Services Pty Ltd
+Pearson Group
+JCOM Co., Ltd.
+Sustainable Development Networking Program
+VDC Powerbase Hong Kong Data Centers Limited
+Agilent Technologies Asia-Pacific Zone
+IXTech Limited
+National Internet Backbone
+SWIFT ONLINE BORDER AS
+AS NO. FOR UNIGATE TELECOM INC.
+ISN, Internet Service Provider
+HawkNet Labs Pty Ltd
+Trade Me Limited
+Government Information Technology Services
+Hindustan Petroleum Corporation Limited
+Powertel Ltd
+APNIC Research and Development
+Micronesian Telecommunications Corp
+INSPIRE Integrated Resort
+Korea Financial Investment Association
+LOTTE INNOVATE Co.,Ltd
+NHINFORMATIONSYSTEM
+Duruan
+LG HelloVision Corp.
+KPN
+Korea Securities Finance Corporation
+SEJONG NETWORKS
+Office of the president
+WOW-TV
+KOREA UNIVERSITY OF MEDIA ARTS
+Samil PwC
+GORayNet
+KTO
+Korean Federation of Community Credit Cooperativ
+WOORI Investment @ Securities
+KOREA GAS CORPORATION
+Korea Internet Security Agency
+ChungCheong University
+National Health Insurance Service
+Vi Asset Management Co., Ltd
+GORayNet
+Hana Insurance Co., Ltd.
+Korea Securities Depository
+KECA, Inc.
+Shinhan card
+VISION College of Jeonju
+Catholic University of DAEGU
+KRNIC-ASBLOCK-AP
+DONG-EUI UNIVERSITY
+Gyeong Sang Buk-Do Office of Education
+Voyager Internet Ltd.
+Lao Telecom Communication, LTC
+StarHub Ltd
+PT. Pasifik Satelit Nusantara
+Mercury NZ Limited
+Ngee Ann Polytechnic Computer Center
+ac3, Australian Centre for Advanced Computing an
+Ogilvy & Mather Marketing Communications Ltd
+NextGen.Net Pty Ltd, North Sydney
+Symbio Wholesale NZ Ltd
+Networks Multimedia Pty Ltd
+Encyclopaedia Britannica Australia Inc
+SingTel Korea Limited
+NKN INTERNET GATEWAY NETWORK
+CTCSCI TECH LIMITED
+Southern Ocean Systems Pty Ltd
+Two Degrees Mobile Limited
+ATOS Information Technology (Singapore) Pte Ltd
+CS LOXINFO Public Company Limited.
+Iconz-Webvisions Pte. Ltd.
+Cenitex
+TPG Internet Pty Ltd.
+Powercor Australia Telecommunications Pty Ltd
+David Robb
+IQ Hive Limited
+Towngas Telecommunications Fixed Network Ltd
+COGETEL Co., Ltd
+One New Zealand Group Limited
+NEOCOMISP LIMITED, IPTX Transit and Network Serv
+Rajamangala Institute of Technology
+Telstra Global Internet Services Network Blocks
+Linknet ASN
+ETNet Limited
+LOCALITEL Localitel bvba
+HK Cable TV Ltd
+Telstra Global Internet Services Network Blocks
+RemoteISP Pty Ltd
+Singapore Telecom
+Vocus Australia
+Internet Information Group
+PCCW IMS Ltd (PCCW Business Internet Access)
+Leemon Professional Consultant
+National Yang Ming Chiao Tung University
+Li Jing Info Limited
+TAI FU INTERNATIONAL NETWORK CO., LTD.
+New Century InfoComm Tech Co., Ltd.
+IMPROVE SYSTEM TECHNOLOGY CO., LTD.
+PCCW Hongkong Telecom Ltd., Taiwan Branch.
+New Kaohsiung Broadband LTD.
+Simple Information, Inc.
+Taiwan Fixed Network, Telco and Network Service
+VDC Powerbase Hong Kong Data Centers Limited
+RADIANT International Internet Gateway (IIG)
+Philippine Global Communications Corporation
+Rapid-Firey (INIXP Asia)
+CHINA UNICOM Industrial Internet Backbone
+TIME dotCom Berhad No. 14, Jalan Majistret U1/26
+National Telecom Public Company Limited
+Health Insurance Commission
+AHCL Health Network
+Mongolia Telecom
+AGNS Customer AS
+Guangzhou Auman Electronic Technology Co. Ltd.
+Delta Networks
+IRESS Market Technology
+DYXNET of Shenzhen Communication Co., Ltd.
+LINKdotNET Telecom Limited
+Ranbaxy Laboratories Limited
+SOUL Converged Communications Australia
+KangNam CableTV
+LG Home shopping Inc.
+yoido full gaspel church
+KCTV JEJU BROADCASTING
+kt cloud Co., Ltd
+NICE TCM
+Hoseo  University
+DACOM-PUBNETPLUS
+AMWAYKOREA
+Hostway IDC
+Hyundai Engineering   Construction Co., Ltd.(HDE
+Kunsan National University (KNU)
+Baekseok University
+KONGJU NATIONAL UNIVERSITY
+KINX
+kakaogames
+KOREA STOCK EXCHANGE
+IM Bank
+KoreaFederationOfSavingsBanks
+Sunchon National University

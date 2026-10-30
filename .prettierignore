@@ -1,0 +1,7 @@
+build
+.svelte-kit
+.wrangler
+package-lock.json
+src/lib/data
+static/data
+src/lib/data

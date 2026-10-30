@@ -1,0 +1,226 @@
+[
+  {
+    "host": "rrc00",
+    "peer": "198.58.198.252",
+    "asn": 1403,
+    "v6": false,
+    "region": "eu"
+  },
+  {
+    "host": "rrc11",
+    "peer": "198.32.160.242",
+    "asn": 24482,
+    "v6": false,
+    "region": "na"
+  },
+  {
+    "host": "rrc06",
+    "peer": "202.249.2.185",
+    "asn": 25152,
+    "v6": false,
+    "region": "as"
+  },
+  {
+    "host": "rrc24",
+    "peer": "138.122.60.1",
+    "asn": 61573,
+    "v6": false,
+    "region": "sa"
+  },
+  {
+    "host": "rrc19",
+    "peer": "196.60.8.190",
+    "asn": 37239,
+    "v6": false,
+    "region": "af"
+  },
+  {
+    "host": "rrc26",
+    "peer": "185.1.8.59",
+    "asn": 49544,
+    "v6": false,
+    "region": "me"
+  },
+  {
+    "host": "rrc25",
+    "peer": "2a0e:46c4:2c11::1",
+    "asn": 142289,
+    "v6": true,
+    "region": "eu"
+  },
+  {
+    "host": "rrc11",
+    "peer": "2001:504:1::a502:1700:1",
+    "asn": 21700,
+    "v6": true,
+    "region": "na"
+  },
+  {
+    "host": "rrc06",
+    "peer": "2001:de8:8::5:9105:1",
+    "asn": 59105,
+    "v6": true,
+    "region": "as"
+  },
+  {
+    "host": "rrc15",
+    "peer": "2001:12f8::217:122",
+    "asn": 35280,
+    "v6": true,
+    "region": "sa"
+  },
+  {
+    "host": "rrc19",
+    "peer": "2001:43f8:6d0::9:165",
+    "asn": 917,
+    "v6": true,
+    "region": "af"
+  },
+  {
+    "host": "rrc26",
+    "peer": "2001:7f8:73:0:3:fa4:0:1",
+    "asn": 200612,
+    "v6": true,
+    "region": "me"
+  },
+  {
+    "host": "rrc01",
+    "peer": "195.66.227.163",
+    "asn": 1299,
+    "v6": false,
+    "region": "eu"
+  },
+  {
+    "host": "rrc14",
+    "peer": "198.32.176.3",
+    "asn": 1280,
+    "v6": false,
+    "region": "na"
+  },
+  {
+    "host": "rrc00",
+    "peer": "2a00:5884::6",
+    "asn": 204092,
+    "v6": true,
+    "region": "eu"
+  },
+  {
+    "host": "rrc23",
+    "peer": "2001:de8:4::13:3210:1",
+    "asn": 133210,
+    "v6": true,
+    "region": "as"
+  },
+  {
+    "host": "rrc24",
+    "peer": "2800:a0:401:c828:a2ca:2000:0:ca",
+    "asn": 6057,
+    "v6": true,
+    "region": "sa"
+  },
+  {
+    "host": "rrc13",
+    "peer": "195.208.208.147",
+    "asn": 28917,
+    "v6": false,
+    "region": "eu"
+  },
+  {
+    "host": "rrc16",
+    "peer": "198.32.243.133",
+    "asn": 199524,
+    "v6": false,
+    "region": "na"
+  },
+  {
+    "host": "rrc01",
+    "peer": "2001:7f8:4::3:2be1:1",
+    "asn": 207841,
+    "v6": true,
+    "region": "eu"
+  },
+  {
+    "host": "rrc16",
+    "peer": "2001:504:0:6:0:2:80:1",
+    "asn": 20080,
+    "v6": true,
+    "region": "na"
+  },
+  {
+    "host": "rrc20",
+    "peer": "91.206.52.177",
+    "asn": 58057,
+    "v6": false,
+    "region": "eu"
+  },
+  {
+    "host": "rrc03",
+    "peer": "2001:7f8:1::a503:4019:1",
+    "asn": 34019,
+    "v6": true,
+    "region": "eu"
+  },
+  {
+    "host": "rrc04",
+    "peer": "2001:7f8:1c:24a::3cbb:1",
+    "asn": 15547,
+    "v6": true,
+    "region": "eu"
+  },
+  {
+    "host": "rrc05",
+    "peer": "2001:7f8:30:0:2:1:5:9890",
+    "asn": 59890,
+    "v6": true,
+    "region": "eu"
+  },
+  {
+    "host": "rrc04",
+    "peer": "192.65.185.3",
+    "asn": 513,
+    "v6": false,
+    "region": "eu"
+  },
+  {
+    "host": "rrc23",
+    "peer": "27.111.229.245",
+    "asn": 35280,
+    "v6": false,
+    "region": "as"
+  },
+  {
+    "host": "rrc15",
+    "peer": "187.16.217.122",
+    "asn": 35280,
+    "v6": false,
+    "region": "sa"
+  },
+  {
+    "host": "rrc14",
+    "peer": "2001:504:d::1",
+    "asn": 1280,
+    "v6": true,
+    "region": "na"
+  },
+  {
+    "host": "rrc25",
+    "peer": "103.75.161.246",
+    "asn": 142289,
+    "v6": false,
+    "region": "eu"
+  },
+  {
+    "host": "rrc03",
+    "peer": "80.249.210.134",
+    "asn": 34019,
+    "v6": false,
+    "region": "eu"
+  },
+  {
+    "host": "rrc07",
+    "peer": "2001:7f8:d:ff::96",
+    "asn": 35280,
+    "v6": true,
+    "region": "eu"
+  }
+]

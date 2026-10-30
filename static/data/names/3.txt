@@ -1,0 +1,1024 @@
+MMC-AS "OBIT" Ltd.
+YG-SPB-RU Yury Gugel
+ASSEW SEW-EURODRIVE GmbH & Co KG
+VASHNET-AS PE Galamay Andrey Anatolyevich
+ENGINYRING-AS ENGINYRING EUROPE SRL
+SIA_2CLOUD 2CLOUD SIA
+ServiceCloud-AS ServiceCloud Ltd.
+HOME-IP Company Delfa Co. Ltd.
+IOL Enet Communications LIMITED
+REDLINE-AS Dmitry Vyacheslavovich Sharov
+MOFET-AS Zipcom Communications LTD
+MIDOCAR-AS MIDOCAR SRL
+wifast WIFAST SARL
+PSINet-Europe GTT Communications Inc.
+TDC TDC Holding A/S
+ITER-ORGANIZATION ITER Organization
+Societe Generale S.A.
+SOCIETE-GENERALE Societe Generale S.A.
+SG_PRIV_CH Societe Generale S.A.
+Societe Generale S.A.
+Societe Generale S.A.
+BT British Telecommunications Limited
+TELIANET-SWEDEN Telia Company AB
+AS-RETELIT-IRIDEOS Retelit Digital Services S.p.
+SWISSCOM Swisscom (Schweiz) AG
+SCARLET Proximus NV
+SFR SA
+KILOHERTZ-NET Kilohertz AB
+GLOBALCONNECT-AS GLOBALCONNECT AS
+TELIANET-DENMARK Norlys Telco A/S
+TELIANET-IPV6 Telia Company AB
+tamkeentech-it Tamkeen Technologies LLC
+ELEKTRA-AS Rosseti Digital JSC
+INET-AS RETELIT-X S.R.L.
+KFKI-AS HUN-REN Wigner Research Centre for Physi
+Join-stock company "Internet Exchange"MSK-IX"
+RELARN Join-stock company "Internet Exchange"MSK
+Universiteit van Amsterdam
+EXPERIMENTAL-NET Evgeniya Linkova
+URAN User Association of Ukrainian Research and
+DTAG Deutsche Telekom AG
+SYNIVERSE-TECHNOLOGIES-MESSAGING-APS SYNIVERSE T
+NTUA National Technical University of Athens
+AS3324_FUJITSU_SPAIN Fujitsu Technology Solution
+KFU Kazan Federal University
+Datagroup PRIVATE JOINT STOCK COMPANY "DATAGROUP
+CITIC CITIC Telecom CPC Netherlands B.V.
+HOL-GR Vodafone-panafon Hellenic Telecommunicati
+PROFINET-AT eww ag
+OPENXS-AS OpenXS GmbH
+SWEDBANK-AS Swedbank AS
+RIPE-NCC-AS Reseaux IP Europeens Network Coordin
+VTX-NETWORK VTX Services SA
+NSU-AS Federal State Educational Institution of
+KOMATSUDE ColocationIX GmbH
+HUNGARNET-SZTAKI SZTAKI
+FIBRAWORLD-AS FIBRAWORLD TELECOM S.A.U.
+MAGYAR-TELEKOM-GTS-AS Magyar Telekom Plc.
+Cibicom-IP-Network Cibicom A/S
+NIKS SCIENTIFIC RESEARCH INSTITUTE FOR SYSTEM AN
+BURSTFIRE Burstfire Networks Ltd
+CETREL-LU-AS1 Worldline Financial Services (Euro
+AS-AVATEL AVATEL TELECOM, SA
+IOFFE-PHYSICAL-THECHICAL-INSTITUTE-AS Ioffe Phys
+Telefonica_de_EspaNa TELEFONICA DE ESPANA S.A.U.
+University of Texas System
+Lockheed Martin Corporation
+Level 3 Parent, LLC
+VLAN24
+Central Intelligence Agency
+University of Alberta
+DXC US Latin America Corporation
+Digital Fortress, Inc.
+Data Transfer Group
+Hong Kong University of Science and Technology
+Computer Systems Design Company
+Seesip Inc.
+a2i communications
+Xplore Inc.
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Kaiser Foundation Health Plan, Inc.
+Princeton Plasma Physics Laboratory
+Maui High Performance Computing Center
+University of Indonesia
+IBM
+Center for Educational Leadership and Technology
+Windstream Communications LLC
+US Net Incorporated
+U.S. Department of State
+University of New Mexico
+Ford Motor Company
+University of Missouri
+ASCIInet Corporation
+GANNETT MEDIA TECHNOLOGIES INTERNATIONAL
+National Default Exchange Holdings, LP
+Electric Press, Inc.
+Commonwealth Department of Human Services and He
+T G & A
+Xplore Inc.
+Sun Users Group Metro San Diego Network Coop
+OBE-NET Obenet AB
+Powerdog Industries
+City of Seattle, Dept. of Admin. Services
+Butterfly Research
+The Internet Access Co.
+Massive Networks, Inc.
+Questar Information Systems, Inc.
+UUN
+Interpath
+Rainbow Media Holdings LLC
+Callvox
+Cornell College
+St. Michael's Hospital
+Credit Suisse Group
+Credit Suisse Group
+Credit Suisse Group
+Credit Suisse Group
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+AT&T Enterprises, LLC
+AT&T Enterprises, LLC
+AT&T Enterprises, LLC
+AT&T Enterprises, LLC
+National Nuclear Security Administration, Kansas
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+ESnet
+State of Kansas
+CenturyLink Communications, LLC
+AT&T Enterprises, LLC
+Universidad Nacional de Buenos Aires
+University of Tennessee
+Downtown Digital
+University of Alabama at Birmingham
+Board of Trustees of Community-Technical College
+Universidad Autonoma de Nuevo Leon
+Liberty Mutual Group
+Charter Communications Inc
+Oracle Corporation
+Volkswagen Group of America, Inc.
+South Texas Blood and Tissue Center
+Institute of High Energy Physics
+Gonzaga College High School
+Data Communication Business Group
+Login, Inc.
+Alabama Supercomputer Authority
+J. B. Hunt Transport Inc.
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+Navy Network Information Center (NNIC)
+LOGICON
+National Oceanic and Atmospheric Administration
+State of Indiana
+Board of Regents of the University System of Geo
+Board of Regents of the University System of Geo
+State of Connecticut
+State of Montana
+Cogent Communications, LLC
+Instituto Politecnico Nacional
+Mizuho Americas Services LLC
+JPMorgan Chase & Co.
+Lagoven S.A., Telecommunication Engineering
+Japan Aerospace Exploration Agency
+Unify Corporation
+Communications Development, Inc.
+PCCW Global (HK) Ltd.
+Mese Software / Internet Atlanta
+Verizon Business
+INTERNATIONAL NETWORK SERVICES
+US Senate
+Maraven
+CalHR
+California State Senate
+State of California Department of Motor Vehicles
+Black Star Publishing Co. Inc.
+USDA
+Big Sky Services, Inc.
+WebNet LLC
+Metropolitan Water District of Southern Californ
+Windstream Communications LLC
+Florida State University
+IPSwat LLC
+Level 3 Parent, LLC
+California Public Utilities Commission
+Real World Computing Partnership
+INFONET
+Emory University
+Internet On-Ramp, Inc.
+Aureon Network Services
+RTX BBN Technologies, Inc.
+RTX BBN Technologies, Inc.
+RTX BBN Technologies, Inc.
+RTX BBN Technologies, Inc.
+RTX BBN Technologies, Inc.
+RTX BBN Technologies, Inc.
+RTX BBN Technologies, Inc.
+RTX BBN Technologies, Inc.
+RTX BBN Technologies, Inc.
+RTX BBN Technologies, Inc.
+UNFI
+South Coast Computing Services, Inc.
+National Institutes of Health
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+Centro de Investigacion y de Estudios Avanzados
+Level 3 Parent, LLC
+Philippine Network Foundation, Inc (PHNet)
+Universidad Tecnologica de Panama
+UMI
+Commonwealth of Virginia
+Holland America Line
+AT&T Technical Services Company, Inc.
+Intevep S.A.
+Internet Systems Consortium, Inc.
+Main Roads Western Australia
+Korea Telecom
+Technetix, Inc.
+CenturyLink Communications, LLC
+Sandia National Laboratories
+Pilot Network Services, Inc
+PenTeleData Inc.
+Prisma Health
+JRiver, Inc.
+Agate, Inc.
+WAIS, Inc.
+Andersen Worldwide S.C.
+FMC Corporation
+Ernst & Young LLP
+Texas Youth Commission
+Accenture LLP
+ICTV, Inc.
+GigabitNow
+Hodgson Russ LLP
+Vestas American Wind Technology
+DSCI, LLC
+Databank, Inc.
+Planet Networks
+Open Business Systems Inc.
+University of Oregon
+BPP Teknologi Networks Manager
+PubNIX, Inc.
+TE Connectivity Corporation
+University of the West Indies
+American Airlines Incorporated
+Evergreen Internet Express
+The Dial Corp
+COMMONWEALTH TELEPHONE CO.
+Emory University
+Trinity College
+Frontier Communications of America, Inc.
+RAIN
+zColo
+Universidad Autonoma Metropolitana
+Fundacion InnovaT
+Microsoft Corporation
+CDW Technologies LLC
+Sun Networks, Inc.
+Interconnected Associates (IXA) Inc.
+Rogers Communications Canada Inc.
+University de Los Andes
+Linder Computer Enterprises
+Guam Cablevision, LLC.
+Connecticut College
+HP Inc.
+Korea Rural Community Corporation
+Cyberstore Systems Inc.
+Computer Solutions by Hawkinson
+NETCOM Interactive
+Dell, Inc.
+Dell, Inc.
+Dell, Inc.
+Dell, Inc.
+Internet Presence & Publishing
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+digineo-lwlcom Digineo GmbH
+Verizon Business
+Verizon Business
+National Radio Astronomy Observatory
+NYSERNet
+NYSERNet
+NYSERNet
+Ministry of Foreign Affairs
+SECRETARIA DE CIENCIA, HUMANIDADES, TECNOLOGIA E
+Province of British Columbia
+Stephen F. Austin State University
+U.S. Department of Commerce, Bureau of Economic
+Corpoven S.A.
+Northwest Nexus Inc.
+Shaman Exchange, Inc.
+Mystic Valley Communications
+C I C E S E
+Zito Networks
+GSA Data Communications and Networking Branch
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+House of Ben Avraham LLC
+American Standard
+General Electric Company
+City of Phoenix
+TSS Digital Services
+Lightning PC
+Claremont University Consortium
+Berry Global Inc
+The Chinese University of Hong Kong
+Joint Universities Computer Centre Limited
+NetNet
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+AT&T Network Systems
+Small Systems Specialists
+Optimum Group
+SLAC National Accelerator Laboratory
+Primus Telecommunications Canada Inc.
+Synergy Commincations, Inc.
+RCN
+Internet Services of Atlanta
+University of Iowa
+University of Iowa
+Global Vision Inc.
+Skypoint Communications, Inc.
+Micro Focus
+Florida International University
+CRACIN
+American Network
+Digital Decisions, Inc.
+State University of New York at Buffalo
+Innovative Logic Corp
+Globalcom
+Hospital for Special Surgery
+CITIC Telecom International CPC Limited
+CITIC Telecom International CPC Limited
+CITIC Telecom International CPC Limited
+CITIC Telecom International CPC Limited
+CITIC Telecom International CPC Limited
+National Oceanic and Atmospheric Administration
+SPM TELECOM
+United States Department of Defense (DoD)
+Nabisco Foods Group
+Hype Enterprises
+Cloud 9 Internet, Inc.
+University of Oregon
+Internet Connect Services, Inc.
+Windstream Communications LLC
+isp.net
+U.S. Government Publishing Office
+Digital Express Group, Inc.
+Verizon Business
+Pacific Biosciences of California, Inc.
+City of San Antonio
+Realm Corporation
+ISIS International (NZ) Ltd.
+Chase Research, Inc.
+ICF International
+Kentucky Educational Computing Network
+The Boeing Company
+Datawave Network Services
+Beijing University of Chemical Technology
+The Computer Den, Inc.
+State of Connecticut Judicial Branch
+The Internet Mainstreet, Inc.
+Mikuni Berkeley R&D Corp.
+NetActuate, Inc
+Electronic Press
+State of Alaska
+Sony Pictures Technologies Inc.
+CSC- JCALS
+Shrubbery Networks
+LightEdge Solutions
+NTT DATA Services Holdings Corporation
+Aquinas College
+AFNCA Inc.
+Levenfeld Pearlstein, LLC
+Santa Clara County Office of Education
+Connection Technologies
+American Webmasters Inc.
+PenTeleData Inc.
+State Street Bank and Trust Company
+Smart Link Project Office
+The University of Chicago
+Dimension Data
+Rock Island Communications
+Cleveland Cliffs Steel LLC
+NTT DATA Services Holdings Corporation
+Internet Public Access Corporation
+Wang NZ Ltd
+Electronics and Telecommunications Research Inst
+Tennessee Board Of Regents
+Net Point LLC
+Phonak, LLC
+Net Axis
+National Supercomputing Center for Energy and th
+NYSERNet
+NYSERNet
+NYSERNet
+Korea Telecom
+SingNet
+Caltex
+Texas Department of Agriculture
+UTOPIA
+Instinet
+BELD
+JAB Wireless, INC.
+Shared Services Canada
+Shared Services Canada
+SOS Corp.
+PROQUEST LLC
+Hearst Magazines, Inc.
+FirstLight Fiber, Inc.
+Sperry
+CETYS
+TGE
+Security Card Systems, Inc.
+Global Network Solutions, IBM Japan, Ltd.
+Hawaiian Telcom Services Company, Inc.
+Haverford College
+Temple University
+Advantis
+U.S. Department of the Interior
+Swarthmore College
+Allegheny Intermediate Unit
+Pohang University of Science and Technology
+SC Data Center, Inc.
+LG DACOM Corporation
+Telecom Mobile Communications Ltd.
+Texas Department of Transportation
+Essentia Health East
+RADIOGRAFICA COSTARRICENSE
+Ascension Technologies
+CIS Corporation
+The Internet Connection
+Texas A&M University
+Bryn Mawr College
+OuterNet Connection Strategies, Inc.
+Metasys, Inc.
+Law School Admission Council, Inc.
+InteleCom Data Systems, Inc,
+AS3800 LLC
+Mikrotec Internet Services
+Luthern General Health System
+RCN
+WorldLinx Telecommunications, Inc.
+Lamb & Company Inc.
+Sacramento County Office of Education
+University of Montana
+Cybergate Information Services
+Wells Fargo Bank, N.A.
+Volkswagen Group of America, Inc.
+INTAC Access Corporation
+FIBERNETICS CORPORATION
+Sogang University
+IMS Intercom
+Aquila BBS Inc.
+COLOMBIA TELECOMUNICACIONES S.A. ESP BIC
+Freeside Communications, Inc.
+Step2 Software Inc.
+EdgePrizm
+American Center for Physics
+Able Technical Services
+Internet Technology Systems
+CIMtegration Inc
+Korea Telecom
+Hilton Worldwide Holdings Inc
+Electriciti
+Cirrus Logic Inc.
+Metropolis BBS
+Cogent Communications, LLC
+Level 3 Parent, LLC
+Cinenet Communications
+wyoming.com
+PT Networking, LLC
+Navy Network Information Center (NNIC)
+Thai Social/Scientific, Academic and Research Ne
+The Mosaic Company
+Ubinet Wireless
+Chulalongkorn University
+Labtam Australia Pty. Ltd.
+Brazos Information Highway Services
+InMotion Hosting, Inc.
+IDDQD-AS
+NTT America, Inc.
+CS&W, Inc.
+Paytronix Systems, Inc.
+ENV
+WorldLinx Telecommunications, Inc.
+DMSSC/OAD
+OpenTV Inc
+Nevada System of Higher Education
+Magic Monad LLC
+Whidbey Telephone Company
+The Dayton Network Access Company
+Logic Communications Ltd
+Packet Clearing House, Inc.
+Internet Connect, Inc.
+Nebraska Public Power District
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+University of Calif. S.F.
+California State University, Chico
+SWITCH, LTD
+M & A Properties, LLC
+GlaxoSmithKline
+Network Ananlysis Group
+ThoughtPort inc.
+CONSORCIO REDUNO S.A. de C.V
+Advanced Data Systems
+Connected INC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+Micron Technology, Inc.
+CHECS
+University of Miami
+Keystone Mercy Health Plan
+Joint Intelligence Center Pacific
+Shell Information Technology International B.V.
+Shell Information Technology International B.V.
+Harbor Net
+PUSHPKT PUSHPKT OU
+General Electric Company
+GXS
+Federal Aviation Administration
+Texas Attorney General
+ICOnetworks
+Fairfax County Dept of Information Technology
+RGNET-IAD RGnet OU
+Valley Tech Corporation
+Financial Systems Limited
+Federal Energy Regulatory Commission
+Logical Net Corporation
+Information Logistics, Inc
+Oregon Public Education Network
+NTT America, Inc.
+Eastern Washington University
+NTT America, Inc.
+NTT America, Inc.
+NTT America, Inc.
+NTT America, Inc.
+NTT America, Inc.
+NTT America, Inc.
+NTT America, Inc.
+CISCO SYSTEMS, INC.
+Partan & Partan
+NTT America, Inc.
+NTT America, Inc.
+NTT America, Inc.
+NTT America, Inc.
+NTT America, Inc.
+Internet Exchange, Ltd.
+CenturyLink Communications, LLC
+Nokia of America Corporation
+Profile International
+United States Department of Defense (DoD)
+Compucom Systems
+Texas Metronet
+American Institute of Physics Incorporated
+Air Canada
+One World Telecommunications, Inc.
+Ameritech Advertising Services
+Automation News Network
+DirectNIC, Ltd.
+Verizon Business
+Verizon Business
+Verizon Business
+Verizon Business
+Nationstar Mortgage, LLC
+El Colegio de Mexico, A.C.
+Software Technology Park
+RGNET-TE-EX RGnet OU
+Biomedical Research Institute of New Mexico
+Sprint, Business Services Group
+Sprint, Business Services Group
+Rezonet
+Automated Medical Systems Consultants Inc.
+I.Net Technologies Inc.
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Sprint/United Telephone-Florida
+Kitchener-Waterloo Municipal Area Network
+Internetworsks, Inc.
+Interweb Corporation
+Florida Information Resource Network
+Association of Computing Machines
+CityNet, Inc.
+The Pennsylvania State University
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Cogent Communications, LLC
+Subisu Cablenet (Pvt) Ltd, Baluwatar, Kathmandu,
+Universal Internet, Inc
+Internetworsks, Inc.
+Headquarters, USAISC
+Headquarters, USAISC
+DCM
+Galaxy Access Network
+B3 Corporation
+CenturyLink Communications, LLC
+Lane County
+Verizon Business
+Defence Intelligence Agency
+Institute of International Education
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Korea Telecom
+The Little Garden
+Vero Broadband
+Montana Internet Corporation
+Acquired Knowledge Systems, Inc.
+StarNet Communications, Inc.
+Federal Aviation Administration
+Community Information & Referral
+CenturyLink Communications, LLC
+CELLO GROUP LIMITED
+OMNINET COMMUNICATIONS
+U. S. Air Force
+Rovi Corporation
+U.S.Robotics
+EZNet, Inc.
+Lockheed Aeronautical Systems Company
+Mechant's Choice Payment Solutions
+CITIC Telecom International CPC Limited
+Wagner Engineering
+Korea Telecom
+Jax Gateway to the World
+Signal Data, Inc.
+Electro Scientific Industries
+Cogent Communications, LLC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+Headquarters, USAISC
+SP Tel
+DuPont Scientific Computing
+RGNET-DFW RGnet OU
+Lycos, Inc.
+University of Pittsburgh
+USIS
+Cogent Communications, LLC
+Bitwise Internet Technologies, Inc.
+No.31,Jin-rong Street
+ENVISIONET, Inc.
+Quality Technology Services, LLC
+Burningate, Inc.
+FAL Networks
+InterServe Communications
+In Mind, Inc.
+GRUPO ICA, S.A. DE C.V.
+Global Information Networks Limited
+Unibase Telecom Ltd
+InterGuide Communications
+UNITED PARCEL SERVICE
+Tachyon Communications Corporation
+Navy Network Information Center (NNIC)
+IDDQD-AS
+Jet Propulsion Laboratory
+SupraNet Communications, Inc.
+USDA
+USDA
+USDA
+USDA
+USDA
+USDA
+USDA
+City University of Hong Kong
+One World Productions
+Internet Direct Marketing
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+Air Force Systems Networking
+United States Department of Defense (DoD)
+Navisite Opco LLC
+Anthropic, PBC
+Gulfstar Charters, Inc.
+Egleston Children's Hospital
+United States Department of Defense (DoD)
+Eurografix, Inc.
+Waynesburg University
+Water Wheel Systems
+AAPT Limited
+AAPT Limited
+Pittsburgh OnLine, Inc.
+AT73
+MTN SA
+City of Los Angeles
+Chattanooga Publishing Company
+TDS TELECOM
+MLSListings inc.
+Verizon Business
+Oracle Corporation
+AT&T Enterprises, LLC
+AT&T Enterprises, LLC
+infobahn
+Gilbarco, Inc.
+OSSHENET1
+Binghamton University
+Oracle Corporation
+Oracle Corporation
+State of Washington
+D. E. Shaw & Co. LP
+Wells Fargo Bank, N.A.
+They Call Me Joe Pty Ltd
+RadixNet, Inc.
+Canadian Imperial Bank of Commerce
+Cogent Communications, LLC
+Oregon State University
+ottogi.co.kr
+Together Foundation
+Allware
+Canadian Imperial Bank of Commerce
+Internet Mississippi
+Allied Access Inc.
+The Iserv Company, LLC
+Pequiven
+D. E. Shaw & Co. LP
+Maricopa County Government
+CenturyLink Communications, LLC
+Krypt Technologies
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+United States Department of Defense (DoD)
+University of Oregon
+Caravela Software, Inc.
+The Calyx Institute
+Navigator Communications
+Sumofiber
+The Chesapeake Computer Group, Incorporated
+State of California Department of Food & Agricul
+Zenlayer Inc
+CLARO S.A.
+Adhesive Media, Inc.
+State of Caligornia
+Workers Compensation Commission
+48 Intelligence Squadron/SC, Air Intelligence Ag
+Citizens Bank
+DXC US Latin America Corporation
+Texas Treasury
+Verizon Business
+New Jersey Net, Inc.
+California State Franchise Tax Board
+Soluciones Avanzadas de Redes
+Wells Fargo Bank, N.A.
+INFOTEC CENTRO DE INVESTIGACION E INNOVACION EN
+Echo Communications Group, Inc.
+New Jersey Institute of Technology
+CAPCON Library Network
+Nexus System
+Eli Lilly and Company
+Alentus Corporation
+TWICS Co. Ltd.
+United States Department of Defense (DoD)
+Robert Wood Johnson University Hospital
+Headquarters, USAISC
+Bain And Company
+Intergate, Inc.
+CyberCash, Inc.
+Accretive Networks
+IOCOM, LTD
+DC Communications, Inc.
+Intermart Inc.
+California Education and Research Federation Net
+California Education and Research Federation Net
+California Education and Research Federation Net
+California Education and Research Federation Net
+California Education and Research Federation Net
+California Education and Research Federation Net
+California Education and Research Federation Net
+California Education and Research Federation Net
+Red de Interconexion Universitaria
+Networx
+Metropolitan Data Networks
+Dod Joint Spectrum Center
+Assumption University
+ACC Data Systems
+Internet Channel
+The Sembler Company
+JAB Wireless, INC.
+INTERSOURCE
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+Verizon Business
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+CenturyLink Communications, LLC
+Dod Joint Spectrum Center
+Dod Joint Spectrum Center
+Dod Joint Spectrum Center
+Navy Network Information Center (NNIC)
+United States Department of Defense (DoD)
+YPN, Inc.
+Premier Communications
+Novia Corp
+SOUTH VALLEY INTERNET
+Tezcatlipoca Inc.
+FMR LLC
+Seminole State College of Florida
+Winfield Communications
+FYI Networks
+Verizon Business
+Vexus Fiber
+Headquarters, USAISC
+Houston Associates, Inc.
+Mille Lacs Energy Cooperative
+Freeport-McMoRan Inc.
+Cortland Electronics Corp.
+Television Audio Support Activity
+Intergrated Network Services Inc.
+Level 3 Parent, LLC
+WhiteHorse Communications, Inc.
+Navy Network Information Center (NNIC)
