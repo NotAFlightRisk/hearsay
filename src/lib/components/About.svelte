@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Live } from '#lib/live.svelte.ts';
+  import { number } from '#lib/words.ts';
 
   let { live }: { live: Live } = $props();
   const analytics = Boolean(import.meta.env.PUBLIC_PLAUSIBLE_SCRIPT);
@@ -19,11 +20,21 @@
   which addresses they can reach. That gossip is BGP, and nobody checks most of it, so it really
   does run on hearsay.
 </p>
-<p>
-  This globe listens to {live.peers.listening || 'a few'} big routers that feed RIPE's
-  <a href="https://ris-live.ripe.net/" rel="external">RIS Live</a> and draws every update they pass on
-  as it happens.
-</p>
+{#if live.source === 'relay'}
+  <p>
+    Our relay listens to every router that feeds RIPE's
+    <a href="https://ris-live.ripe.net/" rel="external">RIS Live</a>, {live.peers.heard
+      ? number(live.peers.heard)
+      : 'hundreds'} of them right now, and passes your browser a fair sample of the routes to draw. Everything
+    it hears counts towards the land dots and the bulletins.
+  </p>
+{:else}
+  <p>
+    This globe is listening to {live.peers.listening || 'a few'} of the routers that feed RIPE's
+    <a href="https://ris-live.ripe.net/" rel="external">RIS Live</a> and draws what they pass on as it
+    happens. Usually our relay listens to all of them, but it isn't around right now.
+  </p>
+{/if}
 
 <h3>The key</h3>
 <ul class="key">

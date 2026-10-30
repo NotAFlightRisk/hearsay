@@ -4,9 +4,9 @@ import type { World } from '#lib/geo/place.ts';
 export type Level = 'light' | 'standard' | 'busy';
 
 export const levels: Record<Level, { peers: number; routesPerSecond: number }> = {
-  light: { peers: 4, routesPerSecond: 20 },
-  standard: { peers: 8, routesPerSecond: 40 },
-  busy: { peers: 16, routesPerSecond: 70 }
+  light: { peers: 4, routesPerSecond: 30 },
+  standard: { peers: 8, routesPerSecond: 60 },
+  busy: { peers: 16, routesPerSecond: 120 }
 };
 
 export type Watch = { asn: number } | { prefix: string };
@@ -55,6 +55,29 @@ export interface Network {
 
 export type Status = 'loading' | 'connecting' | 'live' | 'paused' | 'offline';
 
+/** Where the stream's coming from: the relay hearing every RIS peer, or a few peers direct */
+export type Source = 'relay' | 'direct';
+
+/** The close code the relay uses once it's spent this month's budget */
+export const OUT_OF_BUDGET = 4000;
+
+export type ToRelay = { type: 'level'; level: Level } | { type: 'inspect'; asn: number };
+
+export interface RelayFrame {
+  type: 'frame';
+  /** RIS messages since the last frame and the prefixes in them */
+  tally: Omit<Tally, 'bytes'>;
+  /** RIS paths, peer first: 0 announced, 2 path changed */
+  routes: [kind: 0 | 2, ...path: number[]][];
+  withdrawals: [peer: number, origin: number][];
+  /** [country code, announced, withdrawn], about once a second */
+  countries?: [string, number, number][];
+  anomalies: Anomaly[];
+  peers: number;
+}
+
+export type FromRelay = RelayFrame | { type: 'network'; network: Omit<Network, 'country' | 'at'> };
+
 export type FromWorker =
   | {
       type: 'frame';
@@ -67,6 +90,6 @@ export type FromWorker =
       places: [number, ...Place][];
       peers: { listening: number; heard: number };
     }
-  | { type: 'status'; status: Status; detail?: string }
+  | { type: 'status'; status: Status; source: Source; detail?: string }
   | { type: 'name'; asn: number; name?: string }
   | { type: 'network'; network: Network };

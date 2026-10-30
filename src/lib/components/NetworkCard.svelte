@@ -10,6 +10,9 @@
   const name = $derived(live.nameOf(asn));
   const network = $derived(live.network);
   const watched = $derived(live.watching && 'asn' in live.watching && live.watching.asn === asn);
+  const since = $derived(
+    live.source === 'relay' ? 'Since the relay started listening' : 'Since you opened the page'
+  );
   const links = $derived([
     { name: 'bgp.tools', href: `https://bgp.tools/as/${asn}` },
     { name: 'RIPEstat', href: `https://stat.ripe.net/AS${asn}` },
@@ -53,8 +56,8 @@
     </div>
   </dl>
   <p class="since">
-    Since you opened the page{network?.lastSeen ? `, last heard ${ago(network.lastSeen)}` : ''}.
-    Only routes it starts are counted, not ones it passes along.
+    {since}{network?.lastSeen ? `, last heard ${ago(network.lastSeen)}` : ''}. Only routes it starts
+    are counted, not ones it passes along.
   </p>
 
   {#if network?.upstreams.length}

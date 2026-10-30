@@ -20,8 +20,8 @@
 <section aria-labelledby="spotted">
   <h2 id="spotted">Spotted live</h2>
   <p class="note">
-    Picked out of what our {live.peers.listening} peers are telling us, by rules of thumb. Treat them
-    as hunches.
+    Picked out of what {live.source === 'relay' ? 'all' : 'our'}
+    {live.peers.listening} peers are telling us, by rules of thumb. Treat them as hunches.
   </p>
   {#if live.anomalies.length}
     <ol>

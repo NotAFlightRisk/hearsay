@@ -14,6 +14,10 @@
     standard: 'Standard',
     busy: 'Busy, for a big screen'
   };
+  const levelDetail = (level: Level) =>
+    live.source === 'direct'
+      ? `${levels[level].routesPerSecond} routes a second, from ${levels[level].peers} peers`
+      : `${levels[level].routesPerSecond} routes a second`;
   const themes: Theme[] = ['auto', 'light', 'dark'];
   const layerWords = {
     routes: 'Routes as they spread',
@@ -41,9 +45,7 @@
 
 <section aria-labelledby="watch-heading">
   <h2 id="watch-heading">Watch one network</h2>
-  <p class="note">
-    Hear about it from every RIS peer, not just ours, and see its routes inked darker.
-  </p>
+  <p class="note">Draw every route it announces, as every RIS peer hears it, inked darker.</p>
   {#if watching}
     <p class="watching">
       Watching <strong>{watching}</strong>
@@ -67,11 +69,11 @@
 </section>
 
 <fieldset>
-  <legend>How much to listen to</legend>
+  <legend>How much to draw</legend>
   {#each Object.keys(levels) as Level[] as level (level)}
     <label class="choice">
       <input type="radio" name="level" value={level} bind:group={settings.level} />
-      <span>{levelWords[level]} <small>{levels[level].peers} peers</small></span>
+      <span>{levelWords[level]} <small>{levelDetail(level)}</small></span>
     </label>
   {/each}
   <p class="note">

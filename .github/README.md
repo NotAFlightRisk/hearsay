@@ -25,7 +25,7 @@
 
 The internet is about 80,000 separate networks (autonomous systems), each telling its neighbours which addresses it can reach. That's BGP, and since nobody checks most of what gets passed along, it pretty much runs on hearsay.
 
-This app draws each event it as it happens, plotting it on a 3d globe. Your browser listens to a handful of big routers through RIPE's [RIS Live](https://ris-live.ripe.net/), and every update gets linked across the globe hop by hop, from the network that owns the route to the one that told us about it. Announcements are blue, path changes violet, withdrawals amber.
+This app draws each event as it happens, plotting it on a 3d globe. A small relay listens to every router feeding RIPE's [RIS Live](https://ris-live.ripe.net/) (around 800 of them, sending 7,000 or so updates a second) and passes your browser a few KB a second of it: a fair sample of routes, linked across the globe hop by hop from the network that owns each one to the router that told us about it, plus a count of everything else. Announcements are blue, path changes violet, withdrawals amber.
 
 While it listens, it watches for anything odd: possible route leaks (a small network sat between two giants), prefixes changing hands, networks pulling lots of routes at once, bursts of withdrawals, flapping, bogons and silly amounts of prepending. Confirmed outages, leaks and hijacks from [Cloudflare Radar](https://radar.cloudflare.com/) and [IODA](https://ioda.inetintel.cc.gatech.edu/) sit alongside them, and there's a routing forecast per region, in the style of the shipping forecast.
 
@@ -45,13 +45,16 @@ It's light on data by default: about 10 KB a second on a phone, more on a big sc
 
 ### Option 1: Cloudflare Workers
 
-Fork the repo, change  (or delete) `routes` in `wrangler.jsonc`, then either trigger the deploy workflow, or run:
+Fork the repo, change (or delete) `routes` in `wrangler.jsonc`, then either trigger the deploy workflow, or run:
 
 ```bash
 npm install
 ADAPTER=cloudflare npm run build
 npx wrangler deploy
+npx wrangler deploy -c src/relay/wrangler.jsonc
 ```
+
+The second deploy is the relay, a Durable Object that needs the Workers Paid plan. Change its route in `src/relay/wrangler.jsonc` to match your domain. It only listens while someone has the page open and stops for the month after about $20 of Cloudflare usage. Without it, the app just listens to a few RIS peers directly.
 
 ### Option 2: Docker
 
@@ -60,6 +63,8 @@ There's a multi-arch image on DockerHub ([`notaflightrisk/hearsay`](https://hub.
 ```shell
 docker run -p 3000:3000 notaflightrisk/hearsay
 ```
+
+The relay only runs on Workers, so the image listens to a few RIS peers directly.
 
 ### Option 3: From a release
 
@@ -90,7 +95,7 @@ npm run dev
 
 The dev server is then on [localhost:5173](http://localhost:5173). The other scripts you'll want are `npm run check` (types), `npm test` and `npm run format`. Alternatively, build the container with `docker build -t hearsay .`
 
-The stream, the parsing and the anomaly rules all run in a Web Worker (`src/lib/stream/`, `src/lib/bgp/`), so the main thread only has to draw. The network names, countries, map and RIS peers in `static/data/` and `src/lib/data/` are generated, and `npm run data` fetches fresh copies.
+The stream, the parsing and the anomaly rules all run in a Web Worker (`src/lib/stream/`, `src/lib/bgp/`), so the main thread only has to draw. The relay's in `src/relay/` and `src/lib/relay/`. To try it locally, run `npx wrangler dev -c src/relay/wrangler.jsonc`, then start the app with `RELAY=ws://localhost:8787 npm run dev`. The network names, countries, map and RIS peers in `static/data/` and `src/lib/data/` are generated, and `npm run data` fetches fresh copies.
 
 ---
 

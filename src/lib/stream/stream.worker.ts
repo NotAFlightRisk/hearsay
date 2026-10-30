@@ -1,5 +1,5 @@
+import { Blame, ripestatOwners } from '#lib/bgp/blame.ts';
 import { Detector } from '#lib/bgp/detect.ts';
-import { Lru } from '#lib/bgp/memory.ts';
 import { parsePrefix, within } from '#lib/bgp/networks.ts';
 import { parseRis } from '#lib/bgp/parse.ts';
 import type { Anomaly, Update } from '#lib/bgp/types.ts';
@@ -10,21 +10,31 @@ import { createPlacer } from '#lib/geo/place.ts';
 import { Ledger } from './ledger.ts';
 import {
   levels,
+  OUT_OF_BUDGET,
+  type FromRelay,
   type FromWorker,
   type Level,
   type Place,
   type Ripple,
   type Route,
+  type Source,
+  type Status,
   type Tally,
+  type ToRelay,
   type ToWorker,
   type Watch
 } from './protocol.ts';
 import { Vantage, type Peer } from './vantage.ts';
 
 const RIS = 'wss://ris-live.ripe.net/v1/ws/?client=hearsay-peng-ly';
-const RIPESTAT = 'https://stat.ripe.net/data';
 const FRAME_MS = 100;
 const MAX_RETRY_MS = 30_000;
+// a relay that's down or out of budget gets left alone for this long
+const RELAY_RETRY_MS = 10 * 60_000;
+// some servers never answer a WebSocket they don't know, so the relay gets this long to pick up
+const RELAY_PATIENCE_MS = 5000;
+// anything queued up past this is old news by the time it'd be drawn
+const MOST_QUEUED = 300;
 // a watched network can light up a thousand peers at once, so even those get a ceiling
 const MOST_WATCHED_ROUTES = 12;
 // after this long without a word, the detector's sense of normal is out of date
@@ -41,7 +51,13 @@ let table: AsnTable | undefined;
 let place: ReturnType<typeof createPlacer> = () => undefined;
 let names: ReturnType<typeof createNames> | undefined;
 let countryIndex = new Map<string, number>();
+let relayAt = '';
+let relay: WebSocket | undefined;
 let socket: WebSocket | undefined;
+let source: Source = 'relay';
+let relayRetryAt = 0;
+let relayRetries = 0;
+let relayPeers = 0;
 let level: Level = 'standard';
 let watch: Watch | null = null;
 let paused = false;
@@ -61,10 +77,75 @@ let anomalies = new Map<string, Anomaly>();
 let places = new Map<number, Place>();
 let budget = 0;
 let watchedBudget = 0;
-const blamed = new Lru<string, number[]>(50);
-const surges = new Lru<string, Anomaly>(50);
+let queued: (() => void)[] = [];
 
 const locate = (asn: number) => place(asn, table?.country(asn));
+const status = (status: Status, detail?: string) =>
+  post({ type: 'status', status, source, detail });
+const peerCount = () => (source === 'direct' ? levels[level].peers : 0);
+
+function note(anomaly: Anomaly) {
+  anomalies.set(anomaly.id, anomaly);
+  for (const asn of [anomaly.asn, ...anomaly.others, ...(anomaly.path ?? [])]) {
+    const at = asn ? locate(asn) : undefined;
+    if (at) places.set(asn, at);
+  }
+}
+const blame = new Blame(ripestatOwners, note);
+const noteAll = (found: Anomaly[]) => found.forEach((raw) => note(blame.apply(raw)));
+
+function connect() {
+  clearTimeout(retryTimer);
+  if (paused) return;
+  if (Date.now() >= relayRetryAt) connectRelay();
+  else useDirect();
+}
+
+function retry() {
+  const wait = Math.min(1000 * 2 ** retries++, MAX_RETRY_MS) * (0.75 + Math.random() / 2);
+  retryTimer = setTimeout(connect, wait);
+}
+
+function connectRelay() {
+  if (relay) return;
+  if (source === 'relay') status('connecting');
+  const ws = new WebSocket(relayAt);
+  let opened = false;
+  relay = ws;
+  setTimeout(() => opened || ws.close(), RELAY_PATIENCE_MS);
+  ws.onopen = () => {
+    if (relay !== ws) return;
+    opened = true;
+    relayRetries = 0;
+    source = 'relay';
+    tell({ type: 'level', level });
+    status('live');
+    syncDirect();
+  };
+  ws.onmessage = (event) => hearRelay(event.data as string);
+  ws.onclose = (event) => {
+    if (relay !== ws) return;
+    relay = undefined;
+    if (paused) return;
+    // one that dropped gets another go soon, one that never answered or is out of budget waits
+    const dropped = opened && event.code !== OUT_OF_BUDGET;
+    const wait = dropped ? Math.min(1000 * 2 ** relayRetries++, MAX_RETRY_MS) : RELAY_RETRY_MS;
+    relayRetryAt = Date.now() + wait;
+    useDirect();
+  };
+}
+
+function useDirect() {
+  source = 'direct';
+  queued = [];
+  detector = freshDetector();
+  syncDirect();
+  if (socket?.readyState === WebSocket.OPEN) status('live');
+}
+
+const tell = (message: ToRelay) => {
+  if (relay?.readyState === WebSocket.OPEN) relay.send(JSON.stringify(message));
+};
 
 function send(type: 'ris_subscribe' | 'ris_unsubscribe', data: object) {
   if (socket?.readyState === WebSocket.OPEN) socket.send(JSON.stringify({ type, data }));
@@ -76,35 +157,58 @@ const watchFilter = (target: Watch) =>
     ? { path: `${target.asn}$`, type: 'UPDATE' }
     : { prefix: target.prefix, moreSpecific: true, type: 'UPDATE' };
 
-function connect() {
-  clearTimeout(retryTimer);
+function resubscribe({ add, drop }: { add: Peer[]; drop: Peer[] }) {
+  for (const peer of drop) send('ris_unsubscribe', peerFilter(peer));
+  for (const peer of add) send('ris_subscribe', peerFilter(peer));
+}
+
+/** RIS direct carries a few peers when there's no relay, and the watched network either way */
+function syncDirect() {
+  if (source === 'relay' && !watch) {
+    disconnectDirect();
+    vantage.reset(0, Date.now());
+  } else if (socket) resubscribe(vantage.resize(peerCount(), Date.now()));
+  else connectDirect();
+}
+
+function connectDirect() {
   if (paused || socket) return;
-  post({ type: 'status', status: 'connecting' });
+  if (source === 'direct') status('connecting');
   const ws = new WebSocket(RIS);
   socket = ws;
   ws.onopen = () => {
-    retries = 0;
+    if (source === 'direct') retries = 0;
     if (Date.now() - lastHeard > STALE_MS) detector = freshDetector();
-    for (const peer of vantage.reset(levels[level].peers, Date.now()))
+    for (const peer of vantage.reset(peerCount(), Date.now()))
       send('ris_subscribe', peerFilter(peer));
     if (watch) send('ris_subscribe', watchFilter(watch));
-    post({ type: 'status', status: 'live' });
+    if (source === 'direct') status('live');
   };
   ws.onmessage = (event) => hear(event.data as string);
   ws.onclose = () => {
     if (socket !== ws) return;
     socket = undefined;
     if (paused) return;
-    post({ type: 'status', status: 'offline', detail: 'Lost the connection to RIS Live' });
-    const wait = Math.min(1000 * 2 ** retries++, MAX_RETRY_MS) * (0.75 + Math.random() / 2);
-    retryTimer = setTimeout(connect, wait);
+    if (source === 'relay') {
+      if (watch) setTimeout(syncDirect, 5000);
+      return;
+    }
+    status('offline', 'Lost the connection to RIS Live');
+    retry();
   };
+}
+
+function disconnectDirect() {
+  const ws = socket;
+  socket = undefined;
+  ws?.close();
 }
 
 function disconnect() {
   clearTimeout(retryTimer);
-  const ws = socket;
-  socket = undefined;
+  disconnectDirect();
+  const ws = relay;
+  relay = undefined;
   ws?.close();
 }
 
@@ -118,12 +222,15 @@ function watching(update: Update) {
   });
 }
 
-function count(asn: number | undefined, announced: number, withdrawn: number) {
-  const country = asn === undefined ? undefined : table?.country(asn);
-  const index = country === undefined ? undefined : countryIndex.get(country);
+function countryCount(index: number | undefined, announced: number, withdrawn: number) {
   if (index === undefined) return;
   const [a, w] = countries.get(index) ?? [0, 0];
   countries.set(index, [a + announced, w + withdrawn]);
+}
+
+function count(asn: number | undefined, announced: number, withdrawn: number) {
+  const country = asn === undefined ? undefined : table?.country(asn);
+  countryCount(country === undefined ? undefined : countryIndex.get(country), announced, withdrawn);
 }
 
 /** The path as points, origin first, skipping any network we can't put on the map */
@@ -140,50 +247,34 @@ function trace(path: number[]) {
   return asns.length ? { asns, points } : undefined;
 }
 
-function queue(found: Anomaly[]) {
-  for (const raw of found) {
-    const owners = blamed.get(raw.id);
-    const anomaly = owners ? { ...raw, others: owners } : raw;
-    anomalies.set(anomaly.id, anomaly);
-    for (const asn of [anomaly.asn, ...anomaly.others, ...(anomaly.path ?? [])]) {
-      const at = asn ? locate(asn) : undefined;
-      if (at) places.set(asn, at);
-    }
-    if (anomaly.kind === 'surge') {
-      surges.set(anomaly.id, anomaly);
-      if (!owners) void blame(anomaly);
-    }
-  }
+function drawRoute(kind: Route['kind'], path: number[]) {
+  const route = trace(path);
+  if (route) routes.push({ kind, ...route });
 }
 
-/** A surge's withdrawals don't say whose they were, so ask RIPEstat about a few of them */
-async function blame(surge: Anomaly) {
-  if (blamed.get(surge.id)) return;
-  blamed.set(surge.id, []);
-  const owners = new Map<number, number>();
-  await Promise.all(
-    surge.sample.slice(0, 3).map(async (prefix) => {
-      const url = `${RIPESTAT}/network-info/data.json?resource=${prefix.split('/')[0]}&sourceapp=hearsay`;
-      const body = await fetch(url).then((response) => (response.ok ? response.json() : undefined));
-      for (const asn of body?.data?.asns ?? []) owners.set(+asn, (owners.get(+asn) ?? 0) + 1);
-    })
-  ).catch(() => {});
-  const top = [...owners].sort((a, b) => b[1] - a[1]).map(([asn]) => asn);
-  if (!top.length) return;
-  blamed.set(surge.id, top.slice(0, 3));
-  // the surge has probably grown while RIPEstat was thinking, so update the latest copy
-  queue([surges.get(surge.id) ?? surge]);
+function drawWithdrawal(peerAsn: number, origin: number | undefined) {
+  const from = locate(peerAsn);
+  const to = origin === undefined ? undefined : locate(origin);
+  if (from && to) routes.push({ kind: 1, asns: [peerAsn, origin!], points: [from, to] });
+  const at = to ?? from;
+  if (at) ripples.push({ kind: 1, at });
 }
 
 function hear(raw: string) {
-  tally.messages++;
   tally.bytes += raw.length;
   const update = parseRis(raw);
   if (!update) return;
   lastHeard = Date.now();
+  if (source === 'relay') {
+    if (!watching(update) || watchedBudget-- <= 0) return;
+    if (update.announced.length) drawRoute(4, update.path);
+    else drawWithdrawal(update.peerAsn, undefined);
+    return;
+  }
+  tally.messages++;
   vantage.heardFrom(update.peer, lastHeard);
   const { changed, anomalies: found } = detector.ingest(update, Date.now());
-  queue(found);
+  noteAll(found);
   tally.announced += update.announced.length;
   tally.withdrawn += update.withdrawn.length;
   if (changed) tally.changed++;
@@ -193,8 +284,7 @@ function hear(raw: string) {
     ledger.announce(update);
     count(update.origin, update.announced.length, 0);
     if (watched ? watchedBudget-- > 0 : budget-- > 0) {
-      const route = trace(update.path);
-      if (route) routes.push({ kind: watched ? 4 : changed ? 2 : 0, ...route });
+      drawRoute(watched ? 4 : changed ? 2 : 0, update.path);
     }
   }
 
@@ -208,20 +298,44 @@ function withdraw(update: Update) {
     const origin = detector.originOf(prefix);
     byOrigin.set(origin, (byOrigin.get(origin) ?? 0) + 1);
   }
-  const from = locate(update.peerAsn);
   for (const [origin, withdrawn] of byOrigin) {
     count(origin, 0, withdrawn);
     if (origin !== undefined) ledger.withdraw(origin, withdrawn, update.time);
-    if (budget-- <= 0) continue;
-    const to = origin === undefined ? undefined : locate(origin);
-    if (from && to) routes.push({ kind: 1, asns: [update.peerAsn, origin!], points: [from, to] });
-    const at = to ?? from;
-    if (at) ripples.push({ kind: 1, at });
+    if (budget-- > 0) drawWithdrawal(update.peerAsn, origin);
   }
+}
+
+function hearRelay(raw: string) {
+  tally.bytes += raw.length;
+  const message = JSON.parse(raw) as FromRelay;
+  if (message.type === 'network') {
+    const { asn } = message.network;
+    post({
+      type: 'network',
+      network: { ...message.network, country: table?.country(asn), at: locate(asn) }
+    });
+    return;
+  }
+  tally.messages += message.tally.messages;
+  tally.announced += message.tally.announced;
+  tally.withdrawn += message.tally.withdrawn;
+  tally.changed += message.tally.changed;
+  relayPeers = message.peers;
+  for (const [kind, ...path] of message.routes) queued.push(() => drawRoute(kind, path));
+  for (const [peer, origin] of message.withdrawals) queued.push(() => drawWithdrawal(peer, origin));
+  if (queued.length > MOST_QUEUED) queued = queued.slice(-MOST_QUEUED);
+  for (const [code, announced, withdrawn] of message.countries ?? [])
+    countryCount(countryIndex.get(code), announced, withdrawn);
+  message.anomalies.forEach(note);
 }
 
 function flush() {
   const now = Date.now();
+  // the relay sends a few frames' worth at a time, and this spreads them out
+  while (budget > 0 && queued.length) {
+    budget--;
+    queued.shift()!();
+  }
   post({
     type: 'frame',
     tally,
@@ -230,7 +344,10 @@ function flush() {
     countries: [...countries].map(([index, [a, w]]) => [index, a, w]),
     anomalies: [...anomalies.values()],
     places: [...places].map(([asn, at]) => [asn, ...at]),
-    peers: { listening: vantage.listening, heard: vantage.heard(now) }
+    peers:
+      source === 'relay'
+        ? { listening: relayPeers, heard: relayPeers }
+        : { listening: vantage.listening, heard: vantage.heard(now) }
   });
   tally = fresh();
   routes = [];
@@ -244,20 +361,21 @@ function flush() {
 
 setInterval(flush, FRAME_MS);
 setInterval(() => {
+  if (source === 'relay') return;
   const now = Date.now();
-  queue(detector.tick(now));
-  const { add, drop } = vantage.sweep(now);
-  for (const peer of drop) send('ris_unsubscribe', peerFilter(peer));
-  for (const peer of add) send('ris_subscribe', peerFilter(peer));
+  if (!paused && now >= relayRetryAt) connectRelay();
+  noteAll(detector.tick(now));
+  resubscribe(vantage.sweep(now));
 }, 1000);
 
 onmessage = async ({ data }: MessageEvent<ToWorker>) => {
   switch (data.type) {
     case 'start': {
       level = data.level;
+      relayAt = `${data.base.replace(/^http/, 'ws')}/feed`;
       countryIndex = new Map(data.world.countries.map((code, index) => [code, index]));
       place = createPlacer(data.world);
-      post({ type: 'status', status: 'loading' });
+      post({ type: 'status', status: 'loading', source });
       const response = await fetch(`${data.base}/data/asn.txt`);
       if (!response.ok) throw new Error(`asn.txt answered ${response.status}`);
       table = parseAsnTable(await response.text());
@@ -266,19 +384,18 @@ onmessage = async ({ data }: MessageEvent<ToWorker>) => {
       connect();
       break;
     }
-    case 'level': {
+    case 'level':
       level = data.level;
+      tell({ type: 'level', level });
+      if (source === 'relay') break;
       // a new rate would read as a surge against the old baseline
       detector = freshDetector();
-      const { add, drop } = vantage.resize(levels[level].peers, Date.now());
-      for (const peer of drop) send('ris_unsubscribe', peerFilter(peer));
-      for (const peer of add) send('ris_subscribe', peerFilter(peer));
+      resubscribe(vantage.resize(peerCount(), Date.now()));
       break;
-    }
     case 'pause':
       paused = true;
       disconnect();
-      post({ type: 'status', status: 'paused' });
+      status('paused');
       break;
     case 'resume':
       paused = false;
@@ -287,7 +404,8 @@ onmessage = async ({ data }: MessageEvent<ToWorker>) => {
     case 'watch':
       if (watch) send('ris_unsubscribe', watchFilter(watch));
       watch = data.watch;
-      if (watch) send('ris_subscribe', watchFilter(watch));
+      if (watch && socket) send('ris_subscribe', watchFilter(watch));
+      else syncDirect();
       break;
     case 'name':
       await ready;
@@ -302,6 +420,8 @@ onmessage = async ({ data }: MessageEvent<ToWorker>) => {
       break;
     case 'inspect':
       await ready;
+      // the relay's answer, when it comes, replaces this one
+      tell({ type: 'inspect', asn: data.asn });
       post({
         type: 'network',
         network: {
