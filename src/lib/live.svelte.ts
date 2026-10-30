@@ -12,6 +12,7 @@ const PRESSURE_TAU = 30;
 const PAUSE_WHEN_HIDDEN_MS = 20_000;
 const INCIDENTS_EVERY_MS = 10 * 60_000;
 const MOST_BULLETINS = 60;
+const MOST_PLACES = 2000;
 const rank: Record<Severity, number> = { high: 0, medium: 1, low: 2 };
 const zeros = () => new Array<number>(WINDOW).fill(0);
 
@@ -91,6 +92,12 @@ export class Live {
     return name || undefined;
   };
 
+  #remember(asn: number, at: Place) {
+    this.#places.delete(asn);
+    this.#places.set(asn, at);
+    if (this.#places.size > MOST_PLACES) this.#places.delete(this.#places.keys().next().value!);
+  }
+
   placeOf(asn: number) {
     return this.#places.get(asn) ?? this.#globe?.where(asn);
   }
@@ -165,7 +172,7 @@ export class Live {
         if (message.network.asn === this.selected) {
           this.network = message.network;
           if (message.network.at) {
-            this.#places.set(message.network.asn, message.network.at);
+            this.#remember(message.network.asn, message.network.at);
             if (this.#flyWhenFound) this.#globe?.flyTo(message.network.at, true);
             this.#flyWhenFound = false;
             this.#globe?.focus(new Set([message.network.asn, ...message.network.upstreams]));
@@ -193,7 +200,7 @@ export class Live {
     this.#second.changed += tally.changed;
     this.#second.bytes += tally.bytes;
     this.peers = peers;
-    for (const [asn, lat, lon] of places) this.#places.set(asn, [lat, lon]);
+    for (const [asn, lat, lon] of places) this.#remember(asn, [lat, lon]);
     for (const [index, announced, withdrawn] of countries) {
       this.#countrySecond[index] += announced + withdrawn;
       const region = this.#world.regions[index];
