@@ -2,8 +2,10 @@ import type { Anomaly } from '#lib/bgp/types.ts';
 
 export type Namer = (asn: number) => string | undefined;
 
-const plural = (count: number, one: string, many = `${one}s`) =>
+export const plural = (count: number, one: string, many = `${one}s`) =>
   `${count.toLocaleString('en-GB')} ${count === 1 ? one : many}`;
+
+const stop = (text: string) => (text.endsWith('…') ? text : `${text}.`);
 
 export function shortName(name: string, most = 34) {
   if (name.length <= most) return name;
@@ -38,12 +40,12 @@ export function describe(anomaly: Anomaly, nameOf: Namer) {
     case 'surge':
       return {
         title: 'A burst of withdrawals',
-        detail: `${plural(prefixes, 'route')} gone in a minute, well above the usual.${others.length ? ` Mostly ${as(others[0])}.` : ''}`
+        detail: `${plural(prefixes, 'route')} gone in a minute, well above the usual.${others.length ? ` Mostly ${stop(as(others[0]))}` : ''}`
       };
     case 'flap':
       return {
         title: `${anomaly.prefix ?? sample[0]} keeps flapping`,
-        detail: `Announced and withdrawn ${plural(count, 'time')} in five minutes${asn ? `, from ${as(asn)}` : ''}. Something's unstable.`
+        detail: `${stop(`Announced and withdrawn ${plural(count, 'time')} in five minutes${asn ? `, from ${as(asn)}` : ''}`)} Something's unstable.`
       };
     case 'bogon':
       return {

@@ -17,9 +17,10 @@
     live: Live;
     settings: Choices;
     tab: Tab;
+    onshow: (asn: number) => void;
   }
 
-  let { live, settings = $bindable(), tab = $bindable() }: Props = $props();
+  let { live, settings = $bindable(), tab = $bindable(), onshow }: Props = $props();
   const calm = new MediaQuery('prefers-reduced-motion: reduce');
   const wide = new MediaQuery('min-width: 60rem');
   const names: Record<Tab, string> = {
@@ -67,7 +68,7 @@
   </div>
   <div class="panel" id="panel-{tab}" role="tabpanel" aria-labelledby="tab-{tab}" tabindex="-1">
     {#if tab === 'bulletins'}
-      <Bulletins {live} />
+      <Bulletins {live} {onshow} />
     {:else if tab === 'forecast'}
       <Forecast {live} />
     {:else if tab === 'settings'}
@@ -81,13 +82,14 @@
 <style>
   aside {
     position: absolute;
-    inset: auto var(--edge) max(var(--space-3), env(safe-area-inset-bottom));
+    inset: auto 0 0;
     z-index: 4;
     display: flex;
     flex-direction: column;
     max-height: min(78dvh, 44rem);
-    border: 1px solid var(--rule);
-    border-radius: var(--radius);
+    padding: 0 env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    border-top: 1px solid var(--rule);
+    border-radius: var(--radius) var(--radius) 0 0;
     background: var(--surface);
     box-shadow: var(--shadow);
 
@@ -95,10 +97,13 @@
       inset: 4.5rem var(--edge) var(--space-3) auto;
       width: 25rem;
       max-height: none;
+      border: 1px solid var(--rule);
+      border-radius: var(--radius);
     }
   }
 
   .tabs {
+    flex: none;
     display: flex;
     gap: var(--space-1);
     padding: var(--space-2);
@@ -127,7 +132,7 @@
       &[aria-selected='true'] {
         background: var(--surface-raised);
         color: var(--text);
-        box-shadow: inset 0 -2px 0 var(--accent);
+        box-shadow: inset 0 0 0 1px var(--rule);
       }
     }
   }

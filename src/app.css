@@ -43,7 +43,7 @@
   --space-6: 2rem;
 
   --radius-sm: 6px;
-  --radius: 12px;
+  --radius: 2px;
   --shadow: 0 6px 24px light-dark(rgb(20 34 42 / 0.14), rgb(0 0 0 / 0.45));
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --edge: max(var(--space-3), env(safe-area-inset-left));

@@ -2,6 +2,7 @@
   import { onMount, tick } from 'svelte';
   import { page } from '$app/state';
   import { replaceState } from '$app/navigation';
+  import { MediaQuery } from 'svelte/reactivity';
   import GlobeView from '#lib/components/GlobeView.svelte';
   import Masthead from '#lib/components/Masthead.svelte';
   import Menu, { type Tab } from '#lib/components/Menu.svelte';
@@ -25,6 +26,7 @@
   let tab = $state<Tab>('bulletins');
   let broken = $state(false);
   let level: Level | undefined;
+  const wide = new MediaQuery('min-width: 60rem');
 
   onMount(() => {
     settings = loadSettings();
@@ -82,6 +84,18 @@
     document.getElementById(open ? `tab-${tab}` : 'menu-button')?.focus();
   }
 
+  // on a phone the drawer would sit on top of the network's card
+  function select(asn: number | null) {
+    live?.select(asn);
+    if (asn === null || !wide.current) open = false;
+  }
+
+  async function show(asn: number) {
+    select(asn);
+    await tick();
+    if (!open) document.getElementById('network-name')?.focus();
+  }
+
   function escape(event: KeyboardEvent) {
     if (event.key !== 'Escape') return;
     if (open) void toggle(false);
@@ -117,7 +131,7 @@
         live?.attach(globe);
         makeRoom(globe);
       }}
-      onpick={(asn) => live?.select(asn)}
+      onpick={select}
       onfail={() => (broken = true)}
     />
   {/if}
@@ -134,7 +148,7 @@
     {/if}
     <Strip {live} onbulletins={() => toggle(true, 'bulletins')} />
     {#if open}
-      <Menu {live} bind:settings bind:tab />
+      <Menu {live} bind:settings bind:tab onshow={show} />
     {/if}
   {/if}
   <noscript>
