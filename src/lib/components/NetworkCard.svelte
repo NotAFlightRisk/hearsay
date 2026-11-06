@@ -29,7 +29,7 @@
   <header>
     <div>
       <p class="asn">AS{asn}</p>
-      <h2 id="network-name">
+      <h2 id="network-name" tabindex="-1">
         {name === undefined ? 'Looking it up…' : name || 'No name on record'}
       </h2>
       {#if countryName(network?.country)}<p class="where">

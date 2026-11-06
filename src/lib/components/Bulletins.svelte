@@ -1,11 +1,11 @@
 <script lang="ts">
   import type { Incident } from '#lib/bgp/types.ts';
   import type { Live } from '#lib/live.svelte.ts';
-  import { ago, describe, number } from '#lib/words.ts';
+  import { ago, describe, plural } from '#lib/words.ts';
   import Front from './Front.svelte';
   import Icon from './Icon.svelte';
 
-  let { live }: { live: Live } = $props();
+  let { live, onshow }: { live: Live; onshow: (asn: number) => void } = $props();
 
   const kinds: Record<Incident['kind'], string> = {
     outage: 'Outage',
@@ -33,8 +33,8 @@
             <h3>{words.title}</h3>
             <p>{words.detail}</p>
             <p class="measures">
-              <span>{number(anomaly.prefixes)} prefixes</span>
-              <span>{number(anomaly.peers)} {anomaly.peers === 1 ? 'peer' : 'peers'}</span>
+              <span>{plural(anomaly.prefixes, 'prefix', 'prefixes')}</span>
+              <span>{plural(anomaly.peers, 'peer')}</span>
               <span>{ago(anomaly.last)}</span>
             </p>
           </div>
@@ -42,7 +42,7 @@
             <button
               type="button"
               class="show"
-              onclick={() => live.select(anomaly.asn)}
+              onclick={() => onshow(anomaly.asn)}
               aria-label="Show AS{anomaly.asn} on the globe"
             >
               <Icon name="target" size={18} />
@@ -78,7 +78,8 @@
             </h3>
             {#if incident.detail}<p>{incident.detail}</p>{/if}
             <p class="measures">
-              {#if incident.prefixes}<span>{number(incident.prefixes)} prefixes</span>{/if}
+              {#if incident.prefixes}<span>{plural(incident.prefixes, 'prefix', 'prefixes')}</span
+                >{/if}
               <span>started {ago(Date.parse(incident.start))}</span>
               {#if incident.url}
                 <a href={incident.url} rel="external noopener" target="_blank"
@@ -93,7 +94,7 @@
             <button
               type="button"
               class="show"
-              onclick={() => live.select(incident.asns[0])}
+              onclick={() => onshow(incident.asns[0])}
               aria-label="Show AS{incident.asns[0]} on the globe"
             >
               <Icon name="target" size={18} />
