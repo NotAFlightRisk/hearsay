@@ -22,7 +22,6 @@ const INCIDENTS_EVERY_MS = 10 * 60_000;
 const MOST_BULLETINS = 60;
 const MOST_PLACES = 2000;
 const rank: Record<Severity, number> = { high: 0, medium: 1, low: 2 };
-const zeros = () => new Array<number>(WINDOW).fill(0);
 
 export interface RegionForecast {
   key: RegionKey;
@@ -69,8 +68,7 @@ export class Live {
     this.#countrySecond = new Float32Array(size);
     this.#pressure = new Float32Array(size);
     this.#alarm = new Float32Array(size);
-    for (const key of Object.keys(regions))
-      this.#region.set(key, { announced: zeros(), withdrawn: zeros() });
+    for (const key of Object.keys(regions)) this.#region.set(key, { announced: [], withdrawn: [] });
     this.#worker = new Worker(new URL('./stream/stream.worker.ts', import.meta.url), {
       type: 'module'
     });
@@ -262,8 +260,10 @@ export class Live {
       const [announced, withdrawn] = this.#regionSecond.get(key) ?? [0, 0];
       window.announced.push(announced);
       window.withdrawn.push(withdrawn);
-      window.announced.shift();
-      window.withdrawn.shift();
+      if (window.announced.length > WINDOW) {
+        window.announced.shift();
+        window.withdrawn.shift();
+      }
     }
     this.#regionSecond.clear();
     this.#paintPressure();
