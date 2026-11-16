@@ -96,14 +96,27 @@ const noteAll = (found: Anomaly[]) => found.forEach((raw) => note(blame.apply(ra
 
 function connect() {
   clearTimeout(retryTimer);
-  if (paused) return;
+  if (paused || !table) return;
   if (Date.now() >= relayRetryAt) connectRelay();
   else useDirect();
 }
 
+const backoff = (tries: number) =>
+  Math.min(1000 * 2 ** tries, MAX_RETRY_MS) * (0.75 + Math.random() / 2);
+
 function retry() {
-  const wait = Math.min(1000 * 2 ** retries++, MAX_RETRY_MS) * (0.75 + Math.random() / 2);
-  retryTimer = setTimeout(connect, wait);
+  retryTimer = setTimeout(connect, backoff(retries++));
+}
+
+/** Nothing gets placed or named without the ASN table, so a blip just means asking again */
+async function loadTable(base: string) {
+  for (let tries = 0; ; tries++) {
+    const text = await fetch(`${base}/data/asn.txt`)
+      .then((response) => (response.ok ? response.text() : undefined))
+      .catch(() => undefined);
+    if (text) return parseAsnTable(text);
+    await new Promise((resolve) => setTimeout(resolve, backoff(tries)));
+  }
 }
 
 function connectRelay() {
@@ -376,9 +389,7 @@ onmessage = async ({ data }: MessageEvent<ToWorker>) => {
       countryIndex = new Map(data.world.countries.map((code, index) => [code, index]));
       place = createPlacer(data.world);
       post({ type: 'status', status: 'loading', source });
-      const response = await fetch(`${data.base}/data/asn.txt`);
-      if (!response.ok) throw new Error(`asn.txt answered ${response.status}`);
-      table = parseAsnTable(await response.text());
+      table = await loadTable(data.base);
       names = createNames(`${data.base}/data`, table);
       loaded();
       connect();
