@@ -1,6 +1,6 @@
 export const site = 'https://hearsay.peng.ly';
 
-// listed at the bottom of About, with their logos in static/apps
+// listed at the bottom of About
 export const relatedApps = [
   {
     slug: 'afterlife',
