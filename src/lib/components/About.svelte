@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Live } from '#lib/live.svelte.ts';
+  import { relatedApps } from '#lib/meta.ts';
   import { number } from '#lib/words.ts';
 
   let { live }: { live: Live } = $props();
@@ -89,6 +90,16 @@
   licensed.
 </p>
 
+<h3>More from us</h3>
+<ul class="related">
+  {#each relatedApps as app (app.slug)}
+    <li>
+      <img src="/apps/{app.slug}.svg" alt="" width="16" height="16" loading="lazy" />
+      <span><a href={app.url} rel="external">{app.name}</a> - {app.about}</span>
+    </li>
+  {/each}
+</ul>
+
 <style>
   h2 {
     font-size: var(--text-md);
@@ -121,6 +132,24 @@
       grid-template-columns: 2rem 1fr;
       align-items: center;
       gap: var(--space-2);
+    }
+  }
+
+  .related {
+    display: grid;
+    gap: var(--space-1);
+    margin: var(--space-2) 0 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: flex;
+      gap: var(--space-2);
+    }
+
+    img {
+      flex: none;
+      height: 1lh;
     }
   }
 
