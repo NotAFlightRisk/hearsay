@@ -64,9 +64,9 @@
     <p class="upstreams">
       Reaches the world through
       {#each network.upstreams as upstream, i (upstream)}
-        <button type="button" class="link" onclick={() => live.select(upstream)}
-          >AS{upstream}</button
-        >{i < network.upstreams.length - 1 ? ', ' : ''}
+        <button type="button" class="link" onclick={() => live.select(upstream)}>
+          AS{upstream}
+        </button>{i < network.upstreams.length - 1 ? ', ' : ''}
       {/each}
     </p>
   {/if}

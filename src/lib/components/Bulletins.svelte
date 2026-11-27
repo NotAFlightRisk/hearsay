@@ -78,13 +78,14 @@
             </h3>
             {#if incident.detail}<p>{incident.detail}</p>{/if}
             <p class="measures">
-              {#if incident.prefixes}<span>{plural(incident.prefixes, 'prefix', 'prefixes')}</span
-                >{/if}
+              {#if incident.prefixes}<span>
+                  {plural(incident.prefixes, 'prefix', 'prefixes')}
+                </span>{/if}
               <span>started {ago(Date.parse(incident.start))}</span>
               {#if incident.url}
-                <a href={incident.url} rel="external noopener" target="_blank"
-                  >{incident.source}<Icon name="out" size={14} /></a
-                >
+                <a href={incident.url} rel="external noopener" target="_blank">
+                  {incident.source}<Icon name="out" size={14} />
+                </a>
               {:else}
                 <span>{incident.source}</span>
               {/if}

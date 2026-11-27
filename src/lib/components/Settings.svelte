@@ -99,13 +99,9 @@
     {#each themes as theme (theme)}
       <label class="pill">
         <input type="radio" name="theme" value={theme} bind:group={settings.theme} />
-        <span
-          >{theme === 'auto'
-            ? 'Match my device'
-            : theme === 'light'
-              ? 'Day chart'
-              : 'Night chart'}</span
-        >
+        <span>
+          {theme === 'auto' ? 'Match my device' : theme === 'light' ? 'Day chart' : 'Night chart'}
+        </span>
       </label>
     {/each}
   </div>
