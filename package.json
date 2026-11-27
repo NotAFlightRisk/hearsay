@@ -25,28 +25,28 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^5.20261117.1",
+    "@cloudflare/workers-types": "^5.20261124.1",
     "@fontsource-variable/atkinson-hyperlegible-mono": "^5.3.0",
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",
-    "@sentry/browser": "^11.13.0",
-    "@sentry/vite-plugin": "^11.13.0",
+    "@sentry/browser": "^11.17.0",
+    "@sentry/vite-plugin": "^11.17.0",
     "@sveltejs/adapter-cloudflare": "^8.0.2",
-    "@sveltejs/adapter-node": "^6.0.2",
-    "@sveltejs/kit": "^3.2.0",
-    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@sveltejs/adapter-node": "^6.0.5",
+    "@sveltejs/kit": "^3.4.0",
+    "@sveltejs/vite-plugin-svelte": "^7.3.2",
     "@types/d3-geo": "^3.1.1",
     "@types/node": "^26.6.6",
     "@types/three": "^0.187.0",
     "d3-geo": "^3.1.2",
     "prettier": "^3.10.1",
-    "prettier-plugin-svelte": "^4.1.1",
-    "svelte": "^5.57.3",
+    "prettier-plugin-svelte": "^4.2.0",
+    "svelte": "^5.59.1",
     "svelte-check": "^4.7.8",
     "three": "^0.187.0",
     "typescript": "^6.0.3",
     "vite": "^8.3.8",
-    "vitest": "^5.1.0",
-    "wrangler": "^4.163.0"
+    "vitest": "^5.1.1",
+    "wrangler": "^4.167.0"
   },
   "imports": {
     "#lib/*": "./src/lib/*"
