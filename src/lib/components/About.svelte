@@ -58,9 +58,9 @@
 
 <h3>Where it comes from</h3>
 <p>
-  Routes from <a href="https://ris.ripe.net/" rel="external"
-    >RIPE NCC's Routing Information Service</a
-  >, network names and countries from
+  Routes from <a href="https://ris.ripe.net/" rel="external">
+    RIPE NCC's Routing Information Service
+  </a>, network names and countries from
   <a href="https://ftp.ripe.net/ripe/asnames/" rel="external">RIPE's AS names list</a>, lookups from
   <a href="https://stat.ripe.net/" rel="external">RIPEstat</a>, confirmed incidents from
   {#if live.radar}<a href="https://radar.cloudflare.com/" rel="external">Cloudflare Radar</a> and{/if}
